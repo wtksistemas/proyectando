@@ -1,0 +1,182 @@
+
+#stacks_in_338_page1 {
+	margin: 40px 0px 0px 0px;
+}
+/*
+ * Simple Divider Pro
+ * AUTHOR: JEREMY HAWES
+ * URL: http://www.onelittledesigner.com/rapdidweaver-stack/simple-divider/
+ * Support: support@1littledesigner.com
+ * Version 1.4.0
+ */
+
+#simpleDivider_stacks_in_398_page1 {
+	width: 100%;
+	clear: both;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+#simpleDivider_stacks_in_398_page1 .theDivider1,
+#simpleDivider_stacks_in_398_page1 .theDivider2 {
+	width: inherit;
+}
+#simpleDivider_stacks_in_398_page1 .theDivider1 {
+	height: 0px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+}
+#simpleDivider_stacks_in_398_page1.transparentOff .theDivider1 {
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-color: #CCCCCC;
+	border-bottom-color: #FFFFFF;
+}
+#simpleDivider_stacks_in_398_page1.transparentOn .theDivider1 {
+	border-width: 0;
+	border-color: none;
+}
+#simpleDivider_stacks_in_398_page1 .theDivider2 {
+	height: 4px;
+}
+#simpleDivider_stacks_in_398_page1.transparentOff .theDivider2 {
+	background-color: #E0E0E0;
+}
+#simpleDivider_stacks_in_398_page1.transparentOn .theDivider2 {
+	background-color: transparent;
+}
+#simpleDivider_stacks_in_398_page1.bgImageOn .theDivider1 {
+	background: transparent url() no-repeat;
+	overflow: visible;
+	border-width: 0;
+	border-color: none;
+}
+#simpleDivider_stacks_in_398_page1.bgImageOn .theDivider1 img {
+	display: block;
+}
+
+
+#stacks_in_993_page1 {
+	margin: 40px 0px 0px 0px;
+}
+
+#stacks_in_995_page1 .stacks_left {
+	float:left;
+	width:49%;
+}
+
+#stacks_in_995_page1 .stacks_right {
+	float:right;
+	width:49%;
+}
+#stacks_in_995_page1 {
+	margin: 30px 0px 0px 0px;
+}
+	
+	/* start image list from doobox css */
+	
+	
+	#stacks_in_879_page1 .stacks_in_879_page1imagelist {
+		list-style: none;
+		list-style-type: none;
+		margin:0px 0;
+		
+	}
+	
+	#stacks_in_879_page1 .stacks_in_879_page1listIcon {
+		float:left;
+	}
+	
+	#stacks_in_879_page1 .stacks_in_879_page1listIcon img{
+		width:15px;
+		height: auto;
+	}
+	
+	
+	#stacks_in_879_page1 .stacks_in_879_page1listTitle {
+
+		margin-left:33px;
+		padding-bottom: 0px;
+		font-weight: bold;
+		font-size: 115%;
+	}
+	
+	
+	#stacks_in_879_page1 .stacks_in_879_page1listContent {
+		display: block;
+		margin-left:33px;
+		padding-top: 0px;
+		padding-bottom: 18px;
+	}
+	
+	.stacks_in_879_page1breaker{
+	margin: 0;
+	padding: 0;
+	height: 1px;
+	clear: both;
+	}
+	
+	
+	/* end image list from doobox css */
+		
+	/* start image list from doobox css */
+	
+	
+	#stacks_in_1053_page1 .stacks_in_1053_page1imagelist {
+		list-style: none;
+		list-style-type: none;
+		margin:0px 0;
+		
+	}
+	
+	#stacks_in_1053_page1 .stacks_in_1053_page1listIcon {
+		float:left;
+	}
+	
+	#stacks_in_1053_page1 .stacks_in_1053_page1listIcon img{
+		width:15px;
+		height: auto;
+	}
+	
+	
+	#stacks_in_1053_page1 .stacks_in_1053_page1listTitle {
+
+		margin-left:33px;
+		padding-bottom: 0px;
+		font-weight: bold;
+		font-size: 115%;
+	}
+	
+	
+	#stacks_in_1053_page1 .stacks_in_1053_page1listContent {
+		display: block;
+		margin-left:33px;
+		padding-top: 0px;
+		padding-bottom: 18px;
+	}
+	
+	.stacks_in_1053_page1breaker{
+	margin: 0;
+	padding: 0;
+	height: 1px;
+	clear: both;
+	}
+	
+	
+	/* end image list from doobox css */
+	
+#stacks_in_116_page1 {
+	margin: 40px 0px 0px 0px;
+}
+
+#stacks_in_1083_page1 .stacks_left {
+	float:left;
+	width:41%;
+}
+
+#stacks_in_1083_page1 .stacks_right {
+	float:right;
+	width:41%;
+}
+#stacks_in_1083_page1 {
+	padding:  2px;
+}
