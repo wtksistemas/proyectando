@@ -1,0 +1,82 @@
+@charset "utf-8";
+
+.contenedor
+{
+background-color: darkgray;
+width: auto;
+height: 100%;
+	
+
+}
+
+.cabecera
+{
+	background-color: #033572;
+	position: absolute;
+	top: 0%;
+	left:0%;
+	width: 100%;
+	height: 15%;
+	
+	
+}
+.margen
+{
+    position:absolute;
+    top: 15%;
+    left: 0%;
+    width: 15%;
+    height: 85%;
+    background-color: aqua;
+    align: left;
+}
+.cuerpo
+{
+	background-color: aquamarine;
+position: absolute;
+	top:15%;
+	left:15%;
+	width: 85%;
+	height: 85%;
+}
+.fecha
+{
+ position: absolute;
+	width: 10%;
+	height: 40%;
+	left: 70%;
+	top: 5%;
+	background-color: blanchedalmond;
+	
+	}
+
+.tabla
+{
+	position: absolute;
+	width: 50%;
+	left: 5%;
+	top:20%;
+	background-color: #BF2A2C;
+	
+	
+}
+
+.enviar
+{
+	position: absolute;
+	top:50%;
+	left:70%;
+	background-color: #4AD013;
+
+}
+
+.agregar
+{
+	position: absolute;
+	left: 45%;
+	top:10%;
+	
+	
+}
+
+/* CSS Document */
