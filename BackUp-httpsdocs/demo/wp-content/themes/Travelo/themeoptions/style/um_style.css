@@ -1,0 +1,119 @@
+div.um_menu{
+	background: url(../background.png);
+	width:263px;
+	position:absolute;
+	z-index:100;
+	padding: 23px 23px 0px 23px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	height: 100%;
+}
+
+div.um_menu ul {
+	list-style: none;
+	padding-left: 0px;
+}
+
+	div.um_menu ul li{
+		font-size:14px;
+		font-family:"Arial";
+		font-weight: bold;
+		border-radius: 3px;
+		text-shadow: 0px 1px 0px rgba(0,0,0,0.3);
+	}
+	
+	div.um_menu ul li.um_theme_name {
+		width: 100%;
+		background: #0d262a;
+		color: #87acb2;
+		font-size: 14px;
+		font-weight: normal;
+		-webkit-box-shadow:  0px 1px 0px 0px #324a4f;
+    	box-shadow:  0px 1px 0px 0px #324a4f;
+    	margin-bottom: 60px;
+	}
+
+	div.um_menu ul li.um_theme_name span {
+		width: 100%;
+		height: 100%;
+		display: block;
+		-webkit-box-shadow: inset 0px 1px 0px 0px #0c2225;
+    	box-shadow: inset 0px 1px 0px 0px #0c2225;
+    	padding: 20px 20px;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-ms-box-sizing: border-box;
+		box-sizing: border-box;
+		border-radius: 3px;
+	}
+
+	div.um_menu ul li.um_theme_name strong {
+		color: #fff;
+	}
+
+	div.um_menu ul li.um_first_menu_item{
+		height: auto;
+		text-align:center;
+		margin: 40px 0px;
+	}
+	
+	div.um_menu ul li a{
+		font-size:14px;
+		font-family:"Arial";
+		font-weight: bold;
+	}
+	
+div.um_options{
+	float:left;
+	margin-left:20px;
+	margin-top:40px;
+}
+
+	div.um_options table tr{
+		border: 1px solid #000;
+	}
+
+div.um_meta_container{
+	padding-left: 280px;
+	width:100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.um_menu_item a {
+	font-family:"Arial";
+	font-weight: bold;
+	color:#c3cfd1;
+	background: #0d262a;
+	border-radius: 3px;
+	text-decoration:none;
+	display: block;
+	padding: 20px 20px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.um_menu_item a:hover, .ul_menu_active a {
+	background: #15353a;
+	-webkit-box-shadow: inset 0px 1px 0px 0px #2f4b50;
+	box-shadow: inset 0px 1px 0px 0px #2f4b50;
+	color: #fff;
+}
+
+.um_menu_item a:active {
+	background: #0d262a;
+	-webkit-box-shadow: inset 0px 1px 0px 0px #0c2225;
+	box-shadow: inset 0px 1px 0px 0px #0c2225;
+	outline: none;
+	border: none;
+}
+
+.um_menu_item + .um_menu_item {
+	margin-top: 10px;
+}

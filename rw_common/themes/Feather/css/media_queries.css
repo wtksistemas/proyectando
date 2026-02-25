@@ -1,0 +1,114 @@
+/* We use this media query to add styles to any device that supports media queries */
+@media only screen {
+	#to_the_top {
+	  width: 40px;
+	  -webkit-border-radius: 4px;
+	  -moz-border-radius: 4px;
+	  border-radius: 4px;
+	  text-align: center;
+	  right: 20px;
+	  bottom: 20px;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+
+	nav#main_navigation>ul>li>a {
+		font-size: 0.75em;
+	}
+
+	#extraContent1 {
+		margin-top: -20px;
+		margin-bottom: 50px;
+	}
+
+	h2#site_slogan{
+	  font-size: 2.1em;
+	  line-height: 1.1em;
+	  padding-top: 110px !important;
+	  padding-right: 20px;
+	  padding-left: 20px;
+	}
+
+	.inset {
+	  padding: 10px;
+	}
+
+	#extraContent2, #extraContent3, #extraContent4 {
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+
+	#breadcrumb ul {
+	  padding: 0px 10px;
+	  height: 45px;
+	  line-height: 45px;
+		font-size: 0.8em;
+	}
+
+	#extraContent1 {
+	  padding: 20px;
+	  -webkit-box-shadow: none !important;
+	  -moz-box-shadow: none !important;
+	  box-shadow: none !important;
+	}
+
+	#content, #sidebar {
+		margin-bottom: 40px;
+	}
+
+	#to_the_top {
+	  width: 100%;
+	  line-height: 40px;
+	  -webkit-border-radius: 0px;
+	  -moz-border-radius: 0px;
+	  border-radius: 0px;
+	  text-align: center;
+	  right: 0px;
+	  bottom: 0px;
+	  -webkit-box-shadow: 0 0 3px rgba(0,0,0,0.3);
+	  -moz-box-shadow: 0 0 3px rgba(0,0,0,0.3);
+  	box-shadow: 0 0 3px rgba(0,0,0,0.3);
+	}
+
+}
+
+
+@media only screen and (max-width: 480px) {
+
+	h2#site_slogan{
+	  font-size: 1.7em;
+	  line-height: 1.1em;
+	}
+
+	.fc-header * {
+	  font-size: 0.85em !important;
+	  line-height: 1.2em;
+	}
+
+	.fc-header-title h2 {
+	  font-size: 0.9em !important;
+	}
+
+}
+
+
+/* Used to alter styles for screens at least 768px wide. This is where the grid changes. */
+@media only screen and (min-width: 768px) {
+}
+
+/* Used to alter styles for screens at least 1280px wide. */
+@media only screen and (min-width: 1280px) {}
+
+/* Used to alter styles for screens at least 1440px wide. */
+@media only screen and (min-width: 1440px) {}
+
+/* Apply styles to screens in landscape orientation */
+@media only screen and (orientation: landscape) {}
+
+/* Apply styles to screens in portrait orientation */
+@media only screen and (orientation: portrait) {}
+
+/* We also use Modernizr to add a .touch class to the body when applicable */
+/* You can prepend this class to anything and it will style only for touch devices */
+.touch .your-element {}

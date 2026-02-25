@@ -1,0 +1,1090 @@
+@charset "utf-8";
+
+body {
+	background-color:#eee;
+}
+.mainContent {
+	background:#fff;
+}
+
+.headerBg {
+	background:#fff;
+}
+
+.titleLogo {
+	color:#2861a1;
+}
+
+nav ul ul {
+	background: #2861a1; 
+}
+
+nav ul li:hover {
+	background: #2861a1;
+}
+
+nav ul li:hover a {
+	color: #fff;
+}
+
+nav ul li a {
+	color: #565656; 
+}
+
+nav ul ul li a {
+	border-bottom: 1px solid #2f6db2;
+}
+
+nav ul ul li a {
+	color: #fff;
+}	
+
+nav ul ul li a:hover {
+	color: #93c6ff;
+}
+
+.mainText, .price {
+	background-color: rgba(40,97,161,0.9);
+	color:#fff;
+	background-color: rgb(40,97,161)\0/;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+}
+
+.slide-content p, .slide-content a {
+	color:#fff;
+}
+
+.filterForm{
+	background:rgba(245,161,14,0.9);
+	background-color: rgb(245,161,14)\0/;
+}
+
+.filterForm2{
+	background:rgba(245,161,14,0.9);
+	background-color: rgb(245,161,14)\0/;
+}
+
+.filterWrap {
+	background:#FFF no-repeat;
+}
+
+.filterWrap tr td + td, .filterWrap2 tr td + td{
+	border-left:#e1e1e1 solid 1px;
+}
+
+.filterBtn {
+	background:#2861a1;
+}
+
+.filterBtn:hover {
+	background:#265c99;
+}
+
+.latestPost {
+	background:#FFF no-repeat;
+	color:#565656;
+	border-bottom: solid #dfdfdf 1px;
+}
+
+.latestPost p a {
+	color:#565656;
+}
+
+.latestPost p {
+	color:#565656;
+}
+
+.latestPost a:link,
+.latestPost a:active,
+.latestPost a:hover,
+.latestPost a:visited {
+	color:#565656;
+}
+
+.bucketImgDefault, .bucketImgDefaultHome {
+	background:#2861a1;
+}
+
+.bucket h5 {
+	background: #265c99;
+	color: white;
+}
+
+.bucket {
+	background-color:white;
+	border-bottom: solid #dfdfdf 1px;
+}
+
+.bucketImgHover {
+	background:#000;
+	opacity:0.3;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+}
+
+.bucket:hover h5 {
+	background: #fca004;
+}
+
+.bucket:hover h3 {
+	color:#ffa200;
+}
+
+.bucket a,
+.bucket a h3,
+.bucket a:active,
+.bucket a:visited {
+	color:#2861a1;
+}
+
+.bucket > .bucketContent  {
+	color:#565656;
+}
+
+.bucket2 h5, .bucketEx h5 {
+	background: #265c99;
+	color: white;
+}
+
+.bucket2 {
+	background-color:white;
+	border-bottom: solid #dfdfdf 1px;
+}
+
+.bucketImgHover {
+	background:#000;
+	opacity:0.3;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+}
+
+.bucket2:hover h5 {
+	background: #fca004;
+}
+
+.bucket2:hover h3 {
+	color:#ffa200;
+}
+
+.footerBg {
+	background:#f8f8f8 bottom center;
+	border-top: solid #fff 1px;
+	border-bottom: solid #dfdfdf 1px;
+}
+
+.footer {
+	color:#565656;
+}
+
+.footerBucketContent h3 {
+	color:#2861a1;
+}
+
+.footer_imgHover {
+	background:rgba(40, 97, 161, 0.8);
+	background:rgb(40, 97, 161)\0/;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=75)";
+}
+
+.bold {
+	color:#565656;
+}
+
+.footer2 {
+	color:#565656;
+}
+
+.copyRight2 a:active,
+.copyRight2 a:visited,
+.copyRight2 a {
+	color:#2861a1;
+}
+
+.aboutSocialFooter a {
+	color:#c6c6c6;
+	border:1px #dbdbdb solid;
+	background:#f8f8f8;
+}
+
+.aboutSocialFooter a:hover {
+	color:#fff;
+	background:#c6c6c6;
+}
+
+.sliderBg img {
+	border-bottom:solid 10px rgba(245,161,14,0.9);
+}
+
+.slide-content > a {
+	color:white;
+	background-color: rgba(40,97,161,0.9);
+	background-color: rgb(40,97,161)\0/;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+}
+
+.comments {
+	background:#fff;
+}
+
+.contentPages {
+	background:#fff;
+	border-bottom: solid #dfdfdf 1px;
+}
+
+.pageNr, .pageNrBtn {
+	color:#6d6d6d;
+}
+
+.pageNr > a {
+	background:#cdcdcd;
+	color:#6d6d6d;
+}
+
+.pageNrBtn > a {
+	background:#cdcdcd;
+	color:#6d6d6d;
+}
+
+.pageNr > a:hover, .pageNrBtn > a:hover{
+	color:#fff;
+	background:#2861a1;
+}
+#current {
+    color:#fff;
+	background:#2861a1;
+}
+
+.bucketBlog {
+	background-color:white;
+	border-bottom: solid #dfdfdf 1px;
+}
+
+.bucketBlog a:visited,
+.bucketBlog a:active {
+	color:#2861a1;
+}
+
+.bucketBlog h3 {
+	font-family: 'TeXGyreHerosRegular';
+	font-size:19px;
+	color:#2861a1;
+}
+
+.bucketBlog:hover h5 {
+	background: #fca004;
+}
+
+.bucketBlog:hover h3 {
+	color:#ffa200;
+}
+
+.commentsBody {
+	background:#fff;
+}
+
+.commentBtn {
+	background:#fafafa;
+	border-bottom:solid 1px #ccc;
+}
+
+.commentBtn + .commentBtn {
+	border-bottom:solid 1px #ccc;
+	border-left:solid 1px #ccc;
+}
+
+.commentBtn > a {
+	color:#269939;
+}
+
+.commentBtn:hover a {
+	color:#2861a1;
+}
+
+.commentBtn:hover {
+	background:#fff;
+}
+
+.commentBtn:active commentBtn + commentBtn {
+	border-left:solid 1px #ccc;
+}
+
+.commentsBody ul li p {
+	color:#565656;
+}
+
+.dateTime {
+	color:#b3b2b2;
+}
+
+.commentsBody ul li + li {
+	border-top:dotted 1px #b6b6b6;
+}
+
+.tags {
+	background:#fff;
+}
+
+.tagHeader {
+	background:#fafafa;
+	color:#2861a1;
+	border-bottom:solid 1px #e8e8e8;
+}
+
+.tagBody {
+	background:#fff;
+}
+
+.tagBody > a {
+	background:#e4e4e4;
+	color:#565656;
+}
+
+.tagBody > a:hover {
+	background:#2861a1;
+	color:#fff;
+}
+
+.titleText {
+	background-color: rgba(40,97,161,0.9);
+	color:#fff;
+	background-color: rgb(40,97,161)\0/;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+}
+
+.filter2 {
+	background:white;
+}
+
+.filter2 form  a{
+	color:#565656;
+	border-left: solid 1px #eee;
+}
+
+.filter2 h5 {
+	color:#565656;
+}
+
+.filter2 ul li {
+	border-left:solid 1px #e1e1e1;
+	color:#2861a1;
+}
+
+.filter2 ul li a {
+	color:#565656;	
+}
+
+
+.filter2 ul li a:hover {
+	background:#2861a1;
+	color:white;
+}
+
+.bucketEx {
+	background:#fff;
+	border-bottom: solid #dfdfdf 1px;
+}
+
+.bucketExContent h3,
+.bucketExContent h3:active,
+.bucketExContent h3:visited {
+	color:#2861a1;
+}
+
+.bucketExContent p, table {
+	color:#565656;
+}
+
+.imgHover {
+	background:rgba(0, 0, 0, 0.3);
+}
+
+.bucketEx:hover h3 {
+	color:#ffa200;
+}
+.bucketEx:hover h5 {
+	background:#ffa200;
+}
+
+.bucketExBtn {
+	background:#2861a1;
+	color:#FFF;
+}
+
+.bucketExBtn:hover {
+	background:#ffa200;
+}
+
+.contentPagesTravels {
+	background:#fff;
+	border-bottom: solid #dfdfdf 1px;
+}
+
+.bPageHolder ol li {
+	background:#CCC;
+}
+
+.bPageHolder ol li:hover {
+	background:#fff;
+	border:solid 1px #CCC;
+}
+
+.activePoint {
+	background:#fff;
+	border:solid 1px #CCC;	
+}
+
+.paisvePoint {
+	background:#CCC;
+}
+
+.leftCity {
+	background: #f6f6f6;
+}
+
+.leftCity .citySlider {
+	background: #f6f6f6;
+}
+
+.leftCity .property {
+	background:#dedede;
+	color:#565656;
+}
+
+.rightCity {
+	background:#fff;
+}
+
+.rightCity > p {
+	color:#565656;
+}
+
+.blue {
+	color:#2861a1;
+}
+
+.rightCity h3 {
+	color:#2aa33d;
+}
+
+.reviews {
+	background:#ccc;
+}
+
+.reviews p {
+	color:#565656;
+}
+.travelInformationBar {
+	background:#CCC;
+}
+
+.travelInformationBody {
+	background:#fff;
+}
+
+.travelInformationBody p {
+	color:#565656;
+}
+
+.travelInformationBar span {
+	border-right:1px #dbdbdb solid;
+}
+
+.travelInformationBar span:hover,
+.travelInformationBar span:active {
+	color:#2861a1;
+	background:white;
+}
+
+.travelInformationBarClicked b {
+	color:#2861a1; 
+}
+
+.travelInformationBarClicked {
+	background-color:white; 
+}
+
+.bookDataTable, .cityBookBar {
+	background:#fff;
+}
+
+.sliderPrice {
+	color: #000;
+}
+
+.sliderPrice b {
+	color:#fff;
+	background:#2861a1;
+}
+
+.reviewsBody {
+	background:white;
+}
+
+.hasDatepicker {
+	background:#f7f7f7;
+	border:#e1e1e1 solid 1px;
+	color:#565656;
+}
+
+.inputFields {
+	background:#f7f7f7;
+	border:#e1e1e1 solid 1px;
+}
+
+.cityBookBar tr td + td, .cityBookBar tr td + td{
+	border-left:#e1e1e1 solid 1px;
+}
+
+.bookBtn {
+	background:url(../images/bookBtn.png) no-repeat #265c99;
+	color:white;
+}
+	
+.reviewsBody h5{
+	color: #2861a1;
+}
+
+.reviewsBody span {
+	color:#269939;
+}
+
+.reviewsBody table tr + tr {
+	border-top:2px solid #eaeaea;
+}
+
+.reviewInputFields, .reviewInputStarsBg{
+	background:#f7f7f7;
+	border:#e1e1e1 solid 1px;
+	color:#565656;
+}
+
+.writeComment {
+	background:#f7f7f7;
+	border:#e1e1e1 solid 1px;
+	color:#565656;
+}
+
+.reviewInput b {
+	color:#269939;
+}
+
+#addReviewBtn, .contactSendBtn, .reviewResetBtn, .addReviewBtn {
+	color:white;
+}
+
+#addReviewBtn:hover {
+	background:#265c99;
+}
+
+#addReviewBtn, .contactSendBtn, .addReviewBtn {
+	background:#2861a1;
+}
+
+.contactSendBtn:hover {
+	background:#265c99;
+}
+
+.reviewResetBtn {
+	background:#269939;
+}
+
+.reviewResetBtn:hover {
+	background:#228833;
+}
+
+.writeReview {
+	background:#fafafa;
+	border-top:solid 1px #dfdfdf;
+	border-bottom:solid 1px #dfdfdf;
+}
+
+.writeReview p {
+	color:#2861a1;
+}
+
+.latestOffers {
+	color:#565656;
+	border-bottom: solid #dfdfdf 1px;
+}
+
+.latestOffers p a {
+	color:#656565;
+}
+
+.latestPost a:link,
+.latestPost a:active,
+.latestPost a:hover,
+.latestPost a:visited {
+	color:#565656;
+}
+
+.bookingContent {
+	color: #565656;
+}
+
+.info {
+	background: #f6f6f6;
+}
+
+.elements {
+	background: #d7d7d7;
+}
+
+.elements a {
+	color:#2861a1;
+}
+
+.stepsHeader {
+	background: white;
+}
+
+.stepsHeader span {
+	color:#2861a1;
+}
+
+.stepsBody {
+	background: white;
+	color:#565656;
+}
+
+.stepsBody textarea {
+	background:#f7f7f7;
+	border:#e1e1e1 solid 1px;
+}
+
+.bookInputFields {
+	background:#f7f7f7;
+	border:#e1e1e1 solid 1px;
+	color:#565656;
+}
+
+.bookInputFieldsTwo {
+	background:#f7f7f7;
+	border:#e1e1e1 solid 1px;
+	color:#565656;
+}
+
+.bookInputFieldsThree {
+	background:#f7f7f7;
+	border:#e1e1e1 solid 1px;
+	color:#565656;
+}
+
+.submitBody {
+	background: #f7f7f7;
+}
+
+.bookFormBtnSubmit, .bookFormBtnReset {
+	color:white;
+}
+
+.bookFormBtnSubmit {
+	background:#2861a1;
+}
+
+.bookFormBtnSubmit:hover {
+	background:#265c99;
+}
+
+.bookFormBtnReset {
+	background:#8b8b8b;
+}
+
+.bookFormBtnReset:hover {
+	background:#7c7a7a;
+}
+
+.singlepostContent {
+	background:white;
+}
+
+.Tags {
+	color:#565656;
+	background:#fafafa;
+	border-bottom:1px solid #dfdfdf;
+}
+
+.Tags > a {
+	background:#e4e4e4;
+	color:#565656;
+}
+
+.Tags > a:hover {
+	background:#2861a1;
+	color:#fff;
+}
+
+.singlepostContent h3 {
+	color:#2861a1;
+}
+
+.singleCommentHeader {
+	background:#fafafa;
+	border-bottom:1px solid #dfdfdf;
+}
+.singleCommentHeader p {
+	color:#2861a1;
+}
+
+.singleCommentBody table {
+	background:white;
+}
+
+.singleCommentBody table tr + tr {
+	border-top:2px solid #eaeaea;
+}
+	
+.singleCommentBody h5{
+	color: #2861a1;
+}
+
+.singleCommentBody span {
+	color:#269939;
+}
+
+.singleCommentBody .reviewForm {
+	background:white;
+}
+
+.writeCommentSingle{
+	background:#f7f7f7;
+	border:#e1e1e1 solid 1px;
+	color:#565656;
+}
+
+.mapView {
+	background: white;
+}
+
+.contactForm {
+	background: white;
+}
+
+.contactText {
+	background:#f7f7f7;
+	border:#e1e1e1 solid 1px;
+	color:#565656;
+}
+
+.contactInputFields {
+	background:#f7f7f7;
+	border:#e1e1e1 solid 1px;
+	color:#565656;
+}
+
+.contactForm h5 {
+	color:#2861a1; 
+}
+
+.firstContactinfo, .secondContactinfo {
+	background: #f7f7f7;
+}
+
+.firstContactinfo p {
+	color:#565656;
+}
+
+.secondContactinfo p {
+	color:#565656;
+}
+
+.secondContactinfo h6, .firstContactinfo h6 {
+	color:#2861a1; 
+}
+
+.chooseBtn {
+	background:#2861a1;
+	color:#fff;
+}
+
+.chooseBtn:hover {
+	background:#265c99;
+}
+
+.termsAndConditions {
+	background: #fff;
+	color:#565656;
+}
+
+.pagingBtnBg{
+    background: white;
+}
+
+.replyComment {
+    background: #269939;
+}
+
+#cancel-comment-reply-link {
+    background: #269939;
+    color: #ffffff;
+}
+
+#reply-title > a {
+	color: #2861a1;
+}
+
+.aboutUsHeader, .aboutUsInfoHeader, .aboutUsStaffHeader {
+	background:white;
+	border-bottom:1px solid #eee;
+}
+
+.aboutUsHeader h5, .aboutUsInfoHeader h5, .aboutUsStaffHeader h5, .aboutUsStaffHeader h6 {
+	color:#2861a1;
+}
+
+.aboutUsBody, .aboutUsInfoBody, .aboutUsStaffBody {
+	background:white;
+	border-bottom:1px solid #eee;
+}
+
+.aboutUsBody p, .aboutUsInfoBody p, .aboutUsStaffBody p {
+	color:#565656;
+}
+
+.aboutUsBody {
+	color:#565656;
+}
+
+.aboutSocial a {
+	color:#c6c6c6;
+	border:1px #dbdbdb solid;
+	background:#f8f8f8;
+}
+
+.aboutSocial a:hover {
+	color:#fff;
+	background:#c6c6c6;
+}
+
+.aboutUsStaffHeader {
+	background:white;
+	border-bottom:1px solid #eee;
+}
+
+.aboutUsStaffHeader h5, .aboutUsStaffHeader h6 {
+	color:#2861a1;
+}
+
+h6.Title {
+	color:#565656;
+}
+
+.tags ul li {
+    color: #565656;
+}
+
+.tags ul li a {
+    color: #565656;
+}
+
+.tags > select {
+    background-color:#f7f7f7;
+	border: solid 1px #e1e1e1;
+}
+
+.tags table tfoot a {
+	color:#565656;
+}
+
+.tags table td > a {
+	color:#565656;
+}
+
+.tags table{
+	background:#f7f7f7;
+	border:#e1e1e1 solid 1px;
+	color:#565656;
+}
+
+.tags #recentcomments > li {
+	border-bottom: dotted 1px #e1e1e1;
+}
+
+.tags form #s{
+	background:#f7f7f7;
+	border:#e1e1e1 solid 1px;
+}
+
+.tags form label {
+	color: #2861a1;
+}
+
+
+.tags #searchform  #searchsubmit {
+	background:#2861a1;
+	color:white;
+}
+
+.tags .textwidget, .tags .alignnone {
+	color:#565656;
+}
+
+.fullWidth {
+	background: white;
+}
+
+.textwidget > form > select {
+    background-color:#f7f7f7;
+	border: solid 1px #e1e1e1;
+}
+
+.tags > .tagcloud > a {
+	background:#e4e4e4;
+	color:#565656;
+}
+
+.tags > .tagcloud > a:hover {
+	background:#2861a1;
+	color:#fff;
+}
+
+.reviewInputText b {
+	color:#269939;
+}
+
+.shortcodeWrapper, .blankWrapper, .headingsWrapper, .blockQuoteWrapper{
+	background:#fff;
+}
+
+.shortcodeHeader, .blankHeader, .headingsHeader, .blockquoteHeader{
+	background:white;
+	border-bottom:1px solid #eee;
+}
+.blankBody {
+	background:white;
+}
+
+.shortcodeHeader h5, .blankHeader h5, .headingsHeader h5, .blockquoteHeader h5 {
+	color:#2861a1;
+}
+
+.tabsHeader, .accHeader {
+	background:#ececec;
+}
+
+.accHeader {
+	background:url(../images/acordion_default_state.png) #ececec 98% 50% no-repeat;
+}
+
+.tabs {
+	border:solid 1px #dddcdc;
+	background:white;
+}
+
+.accHeader {
+	border-bottom:solid 1px #dddcdc;
+}
+
+.tabsHeader .tab{
+	color:#565656;
+}
+
+.tabsBody {
+	background:white;
+}
+
+.tabsBody p {
+	color:#565656;
+}
+
+.tabHeaderActive {
+	background:#fff;
+}
+
+.tab {
+	border-right:solid 1px #dddcdc;
+}
+
+.tab:hover {
+	color:#2861a1;
+	background:#fff;
+}
+
+.accordion {
+	border:solid 1px #dddcdc;
+}
+
+.accHeader h5 {
+	color:#565656;
+}
+
+.button a {
+	color:#fff;
+}
+
+.ui-accordion-header-active {
+	background:url(../images/acordion_active_state.png) #f6f6f6 no-repeat 98% 50%;
+}
+
+.ui-accordion-header-active h5 {
+	color:#2861a1;
+}
+
+.heading1, .heading2, .heading3, .heading4, .heading5, .heading6 {
+	color:#2861a1;
+} 
+
+blockquote{
+	color:#565656;
+	border:solid 1px #e6e6e6;
+	background: url(../images/blockquotes.png) 10px no-repeat #f7f7f7;
+}
+
+/* results */
+
+.resultWrapper {
+	background:white;
+}
+
+.orange {
+	color:orange;
+}
+
+.smile {
+	color:#eee;
+}
+
+.filterBtn {
+	color: white;
+}
+
+.replyComment a {
+	color: white;
+}
+
+.bucketWrapper  .bucket  .bucketContent{
+	background: rgba(40, 97, 161, 0.9);
+}
+
+.bucketWrapper .bucket .bucketContent h3{
+	color:#fff;
+}
+
+.bucketWrapper .bucket:hover  h5{
+	background:#2861a1;
+}
+
+@media (min-width: 0px) and (max-width: 1024px) {
+	.menuWrapper {
+		background:#fff;
+		border-left: 5px solid #2861a1;
+	}
+	
+	.menuWrapper ul, .menuWrapper ul li  {
+		color:#eaeaea;
+	}
+	
+	nav ul li a:hover, nav ul ul li a:hover, .menuWrapper ul li a {
+		color: #2861a1;
+		background:#fff;
+	}
+	
+	nav ul li:hover a {
+		color: #2861a1;
+	}
+	
+	#menuResponsiveBtn {
+		color: #2861a1;
+	}
+	
+}
+
+

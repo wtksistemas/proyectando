@@ -1,0 +1,1436 @@
+@charset "UTF-8";
+/*!
+ *  Font Awesome 3.2.1
+ *  the iconic font designed for Bootstrap
+ *  ------------------------------------------------------------------------------
+ *  The full suite of pictographic icons, examples, and documentation can be
+ *  found at http://fontawesome.io.  Stay up to date on Twitter at
+ *  http://twitter.com/fontawesome.
+ *
+ *  License
+ *  ------------------------------------------------------------------------------
+ *  - The Font Awesome font is licensed under SIL OFL 1.1 -
+ *    http://scripts.sil.org/OFL
+ *  - Font Awesome CSS, LESS, and SASS files are licensed under MIT License -
+ *    http://opensource.org/licenses/mit-license.html
+ *  - Font Awesome documentation licensed under CC BY 3.0 -
+ *    http://creativecommons.org/licenses/by/3.0/
+ *  - Attribution is no longer required in Font Awesome 3.0, but much appreciated:
+ *    "Font Awesome by Dave Gandy - http://fontawesome.io"
+ *
+ *  Author - Dave Gandy
+ *  ------------------------------------------------------------------------------
+ *  Email: dave@fontawesome.io
+ *  Twitter: http://twitter.com/byscuits
+ *  Work: Lead Product Designer @ Kyruus - http://kyruus.com
+ */
+/* FONT PATH
+ * -------------------------- */
+@font-face {
+  font-family: 'FontAwesome';
+  src: url("../font/fontawesome-webfont.eot?v=3.2.1");
+  src: url("../font/fontawesome-webfont.eot?#iefix&v=3.2.1") format("embedded-opentype"), url("../font/fontawesome-webfont.woff?v=3.2.1") format("woff"), url("../font/fontawesome-webfont.ttf?v=3.2.1") format("truetype"), url("../font/fontawesome-webfont.svg#fontawesomeregular?v=3.2.1") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+/* FONT AWESOME CORE
+ * -------------------------- */
+[class^="icon-"],
+[class*=" icon-"] {
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: inherit;
+  -webkit-font-smoothing: antialiased;
+  *margin-right: .3em; }
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  text-decoration: inherit;
+  display: inline-block;
+  speak: none; }
+
+/* makes the font 33% larger relative to the icon container */
+.icon-large:before {
+  vertical-align: -10%;
+  font-size: 1.3333333333em; }
+
+/* makes sure icons active on rollover in links */
+a [class^="icon-"],
+a [class*=" icon-"] {
+  display: inline; }
+
+/* increased font size for icon-large */
+[class^="icon-"].icon-fixed-width,
+[class*=" icon-"].icon-fixed-width {
+  display: inline-block;
+  width: 1.1428571429em;
+  text-align: right;
+  padding-right: 0.2857142857em; }
+  [class^="icon-"].icon-fixed-width.icon-large,
+  [class*=" icon-"].icon-fixed-width.icon-large {
+    width: 1.4285714286em; }
+
+.icons-ul {
+  margin-left: 2.1428571429em;
+  list-style-type: none; }
+  .icons-ul > li {
+    position: relative; }
+  .icons-ul .icon-li {
+    position: absolute;
+    left: -2.1428571429em;
+    width: 2.1428571429em;
+    text-align: center;
+    line-height: inherit; }
+
+[class^="icon-"].hide,
+[class*=" icon-"].hide {
+  display: none; }
+
+.icon-muted {
+  color: #eeeeee; }
+
+.icon-light {
+  color: white; }
+
+.icon-dark {
+  color: #333333; }
+
+.icon-border {
+  border: solid 1px #eeeeee;
+  padding: .2em .25em .15em;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px; }
+
+.icon-2x {
+  font-size: 2em; }
+  .icon-2x.icon-border {
+    border-width: 2px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px; }
+
+.icon-3x {
+  font-size: 3em; }
+  .icon-3x.icon-border {
+    border-width: 3px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px; }
+
+.icon-4x {
+  font-size: 4em; }
+  .icon-4x.icon-border {
+    border-width: 4px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px; }
+
+.icon-5x {
+  font-size: 5em; }
+  .icon-5x.icon-border {
+    border-width: 5px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px; }
+
+.pull-right {
+  float: right; }
+
+.pull-left {
+  float: left; }
+
+[class^="icon-"].pull-left,
+[class*=" icon-"].pull-left {
+  margin-right: .3em; }
+[class^="icon-"].pull-right,
+[class*=" icon-"].pull-right {
+  margin-left: .3em; }
+
+/* BOOTSTRAP SPECIFIC CLASSES
+ * -------------------------- */
+/* Bootstrap 2.0 sprites.less reset */
+[class^="icon-"],
+[class*=" icon-"] {
+  display: inline;
+  width: auto;
+  height: auto;
+  line-height: normal;
+  vertical-align: baseline;
+  background-image: none;
+  background-position: 0% 0%;
+  background-repeat: repeat;
+  margin-top: 0; }
+
+/* more sprites.less reset */
+.icon-white,
+.nav-pills > .active > a > [class^="icon-"],
+.nav-pills > .active > a > [class*=" icon-"],
+.nav-list > .active > a > [class^="icon-"],
+.nav-list > .active > a > [class*=" icon-"],
+.navbar-inverse .nav > .active > a > [class^="icon-"],
+.navbar-inverse .nav > .active > a > [class*=" icon-"],
+.dropdown-menu > li > a:hover > [class^="icon-"],
+.dropdown-menu > li > a:hover > [class*=" icon-"],
+.dropdown-menu > .active > a > [class^="icon-"],
+.dropdown-menu > .active > a > [class*=" icon-"],
+.dropdown-submenu:hover > a > [class^="icon-"],
+.dropdown-submenu:hover > a > [class*=" icon-"] {
+  background-image: none; }
+
+/* keeps Bootstrap styles with and without icons the same */
+.btn [class^="icon-"].icon-large,
+.btn [class*=" icon-"].icon-large, .nav [class^="icon-"].icon-large,
+.nav [class*=" icon-"].icon-large {
+  line-height: .9em; }
+.btn [class^="icon-"].icon-spin,
+.btn [class*=" icon-"].icon-spin, .nav [class^="icon-"].icon-spin,
+.nav [class*=" icon-"].icon-spin {
+  display: inline-block; }
+
+.nav-tabs [class^="icon-"], .nav-tabs [class^="icon-"].icon-large,
+.nav-tabs [class*=" icon-"],
+.nav-tabs [class*=" icon-"].icon-large, .nav-pills [class^="icon-"], .nav-pills [class^="icon-"].icon-large,
+.nav-pills [class*=" icon-"],
+.nav-pills [class*=" icon-"].icon-large {
+  line-height: .9em; }
+
+.btn [class^="icon-"].pull-left.icon-2x, .btn [class^="icon-"].pull-right.icon-2x,
+.btn [class*=" icon-"].pull-left.icon-2x,
+.btn [class*=" icon-"].pull-right.icon-2x {
+  margin-top: .18em; }
+.btn [class^="icon-"].icon-spin.icon-large,
+.btn [class*=" icon-"].icon-spin.icon-large {
+  line-height: .8em; }
+
+.btn.btn-small [class^="icon-"].pull-left.icon-2x, .btn.btn-small [class^="icon-"].pull-right.icon-2x,
+.btn.btn-small [class*=" icon-"].pull-left.icon-2x,
+.btn.btn-small [class*=" icon-"].pull-right.icon-2x {
+  margin-top: .25em; }
+
+.btn.btn-large [class^="icon-"],
+.btn.btn-large [class*=" icon-"] {
+  margin-top: 0; }
+  .btn.btn-large [class^="icon-"].pull-left.icon-2x, .btn.btn-large [class^="icon-"].pull-right.icon-2x,
+  .btn.btn-large [class*=" icon-"].pull-left.icon-2x,
+  .btn.btn-large [class*=" icon-"].pull-right.icon-2x {
+    margin-top: .05em; }
+  .btn.btn-large [class^="icon-"].pull-left.icon-2x,
+  .btn.btn-large [class*=" icon-"].pull-left.icon-2x {
+    margin-right: .2em; }
+  .btn.btn-large [class^="icon-"].pull-right.icon-2x,
+  .btn.btn-large [class*=" icon-"].pull-right.icon-2x {
+    margin-left: .2em; }
+
+/* Fixes alignment in nav lists */
+.nav-list [class^="icon-"],
+.nav-list [class*=" icon-"] {
+  line-height: inherit; }
+
+/* EXTRAS
+ * -------------------------- */
+/* Stacked and layered icon */
+.icon-stack {
+  position: relative;
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+  vertical-align: -35%; }
+  .icon-stack [class^="icon-"],
+  .icon-stack [class*=" icon-"] {
+    display: block;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    font-size: 1em;
+    line-height: inherit;
+    *line-height: 2em; }
+  .icon-stack .icon-stack-base {
+    font-size: 2em;
+    *line-height: 1em; }
+
+/* Animated rotating icon */
+.icon-spin {
+  display: inline-block;
+  -moz-animation: spin 2s infinite linear;
+  -o-animation: spin 2s infinite linear;
+  -webkit-animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear; }
+
+/* Prevent stack and spinners from being taken inline when inside a link */
+a .icon-stack,
+a .icon-spin {
+  display: inline-block;
+  text-decoration: none; }
+
+@-moz-keyframes spin {
+  0% {
+    -moz-transform: rotate(0deg); }
+  100% {
+    -moz-transform: rotate(359deg); } }
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(359deg); } }
+@-o-keyframes spin {
+  0% {
+    -o-transform: rotate(0deg); }
+  100% {
+    -o-transform: rotate(359deg); } }
+@-ms-keyframes spin {
+  0% {
+    -ms-transform: rotate(0deg); }
+  100% {
+    -ms-transform: rotate(359deg); } }
+@keyframes spin {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(359deg); } }
+/* Icon rotations and mirroring */
+.icon-rotate-90:before {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1); }
+
+.icon-rotate-180:before {
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2); }
+
+.icon-rotate-270:before {
+  -webkit-transform: rotate(270deg);
+  -moz-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  transform: rotate(270deg);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3); }
+
+.icon-flip-horizontal:before {
+  -webkit-transform: scale(-1, 1);
+  -moz-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  -o-transform: scale(-1, 1);
+  transform: scale(-1, 1); }
+
+.icon-flip-vertical:before {
+  -webkit-transform: scale(1, -1);
+  -moz-transform: scale(1, -1);
+  -ms-transform: scale(1, -1);
+  -o-transform: scale(1, -1);
+  transform: scale(1, -1); }
+
+/* ensure rotation occurs inside anchor tags */
+a .icon-rotate-90:before, a .icon-rotate-180:before, a .icon-rotate-270:before, a .icon-flip-horizontal:before, a .icon-flip-vertical:before {
+  display: inline-block; }
+
+/* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
+ * readers do not read off random characters that represent icons */
+.icon-glass:before {
+  content: ""; }
+
+.icon-music:before {
+  content: ""; }
+
+.icon-search:before {
+  content: ""; }
+
+.icon-envelope-alt:before {
+  content: ""; }
+
+.icon-heart:before {
+  content: ""; }
+
+.icon-star:before {
+  content: ""; }
+
+.icon-star-empty:before {
+  content: ""; }
+
+.icon-user:before {
+  content: ""; }
+
+.icon-film:before {
+  content: ""; }
+
+.icon-th-large:before {
+  content: ""; }
+
+.icon-th:before {
+  content: ""; }
+
+.icon-th-list:before {
+  content: ""; }
+
+.icon-ok:before {
+  content: ""; }
+
+.icon-remove:before {
+  content: ""; }
+
+.icon-zoom-in:before {
+  content: ""; }
+
+.icon-zoom-out:before {
+  content: ""; }
+
+.icon-power-off:before,
+.icon-off:before {
+  content: ""; }
+
+.icon-signal:before {
+  content: ""; }
+
+.icon-gear:before,
+.icon-cog:before {
+  content: ""; }
+
+.icon-trash:before {
+  content: ""; }
+
+.icon-home:before {
+  content: ""; }
+
+.icon-file-alt:before {
+  content: ""; }
+
+.icon-time:before {
+  content: ""; }
+
+.icon-road:before {
+  content: ""; }
+
+.icon-download-alt:before {
+  content: ""; }
+
+.icon-download:before {
+  content: ""; }
+
+.icon-upload:before {
+  content: ""; }
+
+.icon-inbox:before {
+  content: ""; }
+
+.icon-play-circle:before {
+  content: ""; }
+
+.icon-rotate-right:before,
+.icon-repeat:before {
+  content: ""; }
+
+.icon-refresh:before {
+  content: ""; }
+
+.icon-list-alt:before {
+  content: ""; }
+
+.icon-lock:before {
+  content: ""; }
+
+.icon-flag:before {
+  content: ""; }
+
+.icon-headphones:before {
+  content: ""; }
+
+.icon-volume-off:before {
+  content: ""; }
+
+.icon-volume-down:before {
+  content: ""; }
+
+.icon-volume-up:before {
+  content: ""; }
+
+.icon-qrcode:before {
+  content: ""; }
+
+.icon-barcode:before {
+  content: ""; }
+
+.icon-tag:before {
+  content: ""; }
+
+.icon-tags:before {
+  content: ""; }
+
+.icon-book:before {
+  content: ""; }
+
+.icon-bookmark:before {
+  content: ""; }
+
+.icon-print:before {
+  content: ""; }
+
+.icon-camera:before {
+  content: ""; }
+
+.icon-font:before {
+  content: ""; }
+
+.icon-bold:before {
+  content: ""; }
+
+.icon-italic:before {
+  content: ""; }
+
+.icon-text-height:before {
+  content: ""; }
+
+.icon-text-width:before {
+  content: ""; }
+
+.icon-align-left:before {
+  content: ""; }
+
+.icon-align-center:before {
+  content: ""; }
+
+.icon-align-right:before {
+  content: ""; }
+
+.icon-align-justify:before {
+  content: ""; }
+
+.icon-list:before {
+  content: ""; }
+
+.icon-indent-left:before {
+  content: ""; }
+
+.icon-indent-right:before {
+  content: ""; }
+
+.icon-facetime-video:before {
+  content: ""; }
+
+.icon-picture:before {
+  content: ""; }
+
+.icon-pencil:before {
+  content: ""; }
+
+.icon-map-marker:before {
+  content: ""; }
+
+.icon-adjust:before {
+  content: ""; }
+
+.icon-tint:before {
+  content: ""; }
+
+.icon-edit:before {
+  content: ""; }
+
+.icon-share:before {
+  content: ""; }
+
+.icon-check:before {
+  content: ""; }
+
+.icon-move:before {
+  content: ""; }
+
+.icon-step-backward:before {
+  content: ""; }
+
+.icon-fast-backward:before {
+  content: ""; }
+
+.icon-backward:before {
+  content: ""; }
+
+.icon-play:before {
+  content: ""; }
+
+.icon-pause:before {
+  content: ""; }
+
+.icon-stop:before {
+  content: ""; }
+
+.icon-forward:before {
+  content: ""; }
+
+.icon-fast-forward:before {
+  content: ""; }
+
+.icon-step-forward:before {
+  content: ""; }
+
+.icon-eject:before {
+  content: ""; }
+
+.icon-chevron-left:before {
+  content: ""; }
+
+.icon-chevron-right:before {
+  content: ""; }
+
+.icon-plus-sign:before {
+  content: ""; }
+
+.icon-minus-sign:before {
+  content: ""; }
+
+.icon-remove-sign:before {
+  content: ""; }
+
+.icon-ok-sign:before {
+  content: ""; }
+
+.icon-question-sign:before {
+  content: ""; }
+
+.icon-info-sign:before {
+  content: ""; }
+
+.icon-screenshot:before {
+  content: ""; }
+
+.icon-remove-circle:before {
+  content: ""; }
+
+.icon-ok-circle:before {
+  content: ""; }
+
+.icon-ban-circle:before {
+  content: ""; }
+
+.icon-arrow-left:before {
+  content: ""; }
+
+.icon-arrow-right:before {
+  content: ""; }
+
+.icon-arrow-up:before {
+  content: ""; }
+
+.icon-arrow-down:before {
+  content: ""; }
+
+.icon-mail-forward:before,
+.icon-share-alt:before {
+  content: ""; }
+
+.icon-resize-full:before {
+  content: ""; }
+
+.icon-resize-small:before {
+  content: ""; }
+
+.icon-plus:before {
+  content: ""; }
+
+.icon-minus:before {
+  content: ""; }
+
+.icon-asterisk:before {
+  content: ""; }
+
+.icon-exclamation-sign:before {
+  content: ""; }
+
+.icon-gift:before {
+  content: ""; }
+
+.icon-leaf:before {
+  content: ""; }
+
+.icon-fire:before {
+  content: ""; }
+
+.icon-eye-open:before {
+  content: ""; }
+
+.icon-eye-close:before {
+  content: ""; }
+
+.icon-warning-sign:before {
+  content: ""; }
+
+.icon-plane:before {
+  content: ""; }
+
+.icon-calendar:before {
+  content: ""; }
+
+.icon-random:before {
+  content: ""; }
+
+.icon-comment:before {
+  content: ""; }
+
+.icon-magnet:before {
+  content: ""; }
+
+.icon-chevron-up:before {
+  content: ""; }
+
+.icon-chevron-down:before {
+  content: ""; }
+
+.icon-retweet:before {
+  content: ""; }
+
+.icon-shopping-cart:before {
+  content: ""; }
+
+.icon-folder-close:before {
+  content: ""; }
+
+.icon-folder-open:before {
+  content: ""; }
+
+.icon-resize-vertical:before {
+  content: ""; }
+
+.icon-resize-horizontal:before {
+  content: ""; }
+
+.icon-bar-chart:before {
+  content: ""; }
+
+.icon-twitter-sign:before {
+  content: ""; }
+
+.icon-facebook-sign:before {
+  content: ""; }
+
+.icon-camera-retro:before {
+  content: ""; }
+
+.icon-key:before {
+  content: ""; }
+
+.icon-gears:before,
+.icon-cogs:before {
+  content: ""; }
+
+.icon-comments:before {
+  content: ""; }
+
+.icon-thumbs-up-alt:before {
+  content: ""; }
+
+.icon-thumbs-down-alt:before {
+  content: ""; }
+
+.icon-star-half:before {
+  content: ""; }
+
+.icon-heart-empty:before {
+  content: ""; }
+
+.icon-signout:before {
+  content: ""; }
+
+.icon-linkedin-sign:before {
+  content: ""; }
+
+.icon-pushpin:before {
+  content: ""; }
+
+.icon-external-link:before {
+  content: ""; }
+
+.icon-signin:before {
+  content: ""; }
+
+.icon-trophy:before {
+  content: ""; }
+
+.icon-github-sign:before {
+  content: ""; }
+
+.icon-upload-alt:before {
+  content: ""; }
+
+.icon-lemon:before {
+  content: ""; }
+
+.icon-phone:before {
+  content: ""; }
+
+.icon-unchecked:before,
+.icon-check-empty:before {
+  content: ""; }
+
+.icon-bookmark-empty:before {
+  content: ""; }
+
+.icon-phone-sign:before {
+  content: ""; }
+
+.icon-twitter:before {
+  content: ""; }
+
+.icon-facebook:before {
+  content: ""; }
+
+.icon-github:before {
+  content: ""; }
+
+.icon-unlock:before {
+  content: ""; }
+
+.icon-credit-card:before {
+  content: ""; }
+
+.icon-rss:before {
+  content: ""; }
+
+.icon-hdd:before {
+  content: ""; }
+
+.icon-bullhorn:before {
+  content: ""; }
+
+.icon-bell:before {
+  content: ""; }
+
+.icon-certificate:before {
+  content: ""; }
+
+.icon-hand-right:before {
+  content: ""; }
+
+.icon-hand-left:before {
+  content: ""; }
+
+.icon-hand-up:before {
+  content: ""; }
+
+.icon-hand-down:before {
+  content: ""; }
+
+.icon-circle-arrow-left:before {
+  content: ""; }
+
+.icon-circle-arrow-right:before {
+  content: ""; }
+
+.icon-circle-arrow-up:before {
+  content: ""; }
+
+.icon-circle-arrow-down:before {
+  content: ""; }
+
+.icon-globe:before {
+  content: ""; }
+
+.icon-wrench:before {
+  content: ""; }
+
+.icon-tasks:before {
+  content: ""; }
+
+.icon-filter:before {
+  content: ""; }
+
+.icon-briefcase:before {
+  content: ""; }
+
+.icon-fullscreen:before {
+  content: ""; }
+
+.icon-group:before {
+  content: ""; }
+
+.icon-link:before {
+  content: ""; }
+
+.icon-cloud:before {
+  content: ""; }
+
+.icon-beaker:before {
+  content: ""; }
+
+.icon-cut:before {
+  content: ""; }
+
+.icon-copy:before {
+  content: ""; }
+
+.icon-paperclip:before,
+.icon-paper-clip:before {
+  content: ""; }
+
+.icon-save:before {
+  content: ""; }
+
+.icon-sign-blank:before {
+  content: ""; }
+
+.icon-reorder:before {
+  content: ""; }
+
+.icon-list-ul:before {
+  content: ""; }
+
+.icon-list-ol:before {
+  content: ""; }
+
+.icon-strikethrough:before {
+  content: ""; }
+
+.icon-underline:before {
+  content: ""; }
+
+.icon-table:before {
+  content: ""; }
+
+.icon-magic:before {
+  content: ""; }
+
+.icon-truck:before {
+  content: ""; }
+
+.icon-pinterest:before {
+  content: ""; }
+
+.icon-pinterest-sign:before {
+  content: ""; }
+
+.icon-google-plus-sign:before {
+  content: ""; }
+
+.icon-google-plus:before {
+  content: ""; }
+
+.icon-money:before {
+  content: ""; }
+
+.icon-caret-down:before {
+  content: ""; }
+
+.icon-caret-up:before {
+  content: ""; }
+
+.icon-caret-left:before {
+  content: ""; }
+
+.icon-caret-right:before {
+  content: ""; }
+
+.icon-columns:before {
+  content: ""; }
+
+.icon-sort:before {
+  content: ""; }
+
+.icon-sort-down:before {
+  content: ""; }
+
+.icon-sort-up:before {
+  content: ""; }
+
+.icon-envelope:before {
+  content: ""; }
+
+.icon-linkedin:before {
+  content: ""; }
+
+.icon-rotate-left:before,
+.icon-undo:before {
+  content: ""; }
+
+.icon-legal:before {
+  content: ""; }
+
+.icon-dashboard:before {
+  content: ""; }
+
+.icon-comment-alt:before {
+  content: ""; }
+
+.icon-comments-alt:before {
+  content: ""; }
+
+.icon-bolt:before {
+  content: ""; }
+
+.icon-sitemap:before {
+  content: ""; }
+
+.icon-umbrella:before {
+  content: ""; }
+
+.icon-paste:before {
+  content: ""; }
+
+.icon-lightbulb:before {
+  content: ""; }
+
+.icon-exchange:before {
+  content: ""; }
+
+.icon-cloud-download:before {
+  content: ""; }
+
+.icon-cloud-upload:before {
+  content: ""; }
+
+.icon-user-md:before {
+  content: ""; }
+
+.icon-stethoscope:before {
+  content: ""; }
+
+.icon-suitcase:before {
+  content: ""; }
+
+.icon-bell-alt:before {
+  content: ""; }
+
+.icon-coffee:before {
+  content: ""; }
+
+.icon-food:before {
+  content: ""; }
+
+.icon-file-text-alt:before {
+  content: ""; }
+
+.icon-building:before {
+  content: ""; }
+
+.icon-hospital:before {
+  content: ""; }
+
+.icon-ambulance:before {
+  content: ""; }
+
+.icon-medkit:before {
+  content: ""; }
+
+.icon-fighter-jet:before {
+  content: ""; }
+
+.icon-beer:before {
+  content: ""; }
+
+.icon-h-sign:before {
+  content: ""; }
+
+.icon-plus-sign-alt:before {
+  content: ""; }
+
+.icon-double-angle-left:before {
+  content: ""; }
+
+.icon-double-angle-right:before {
+  content: ""; }
+
+.icon-double-angle-up:before {
+  content: ""; }
+
+.icon-double-angle-down:before {
+  content: ""; }
+
+.icon-angle-left:before {
+  content: ""; }
+
+.icon-angle-right:before {
+  content: ""; }
+
+.icon-angle-up:before {
+  content: ""; }
+
+.icon-angle-down:before {
+  content: ""; }
+
+.icon-desktop:before {
+  content: ""; }
+
+.icon-laptop:before {
+  content: ""; }
+
+.icon-tablet:before {
+  content: ""; }
+
+.icon-mobile-phone:before {
+  content: ""; }
+
+.icon-circle-blank:before {
+  content: ""; }
+
+.icon-quote-left:before {
+  content: ""; }
+
+.icon-quote-right:before {
+  content: ""; }
+
+.icon-spinner:before {
+  content: ""; }
+
+.icon-circle:before {
+  content: ""; }
+
+.icon-mail-reply:before,
+.icon-reply:before {
+  content: ""; }
+
+.icon-github-alt:before {
+  content: ""; }
+
+.icon-folder-close-alt:before {
+  content: ""; }
+
+.icon-folder-open-alt:before {
+  content: ""; }
+
+.icon-expand-alt:before {
+  content: ""; }
+
+.icon-collapse-alt:before {
+  content: ""; }
+
+.icon-smile:before {
+  content: ""; }
+
+.icon-frown:before {
+  content: ""; }
+
+.icon-meh:before {
+  content: ""; }
+
+.icon-gamepad:before {
+  content: ""; }
+
+.icon-keyboard:before {
+  content: ""; }
+
+.icon-flag-alt:before {
+  content: ""; }
+
+.icon-flag-checkered:before {
+  content: ""; }
+
+.icon-terminal:before {
+  content: ""; }
+
+.icon-code:before {
+  content: ""; }
+
+.icon-reply-all:before {
+  content: ""; }
+
+.icon-mail-reply-all:before {
+  content: ""; }
+
+.icon-star-half-full:before,
+.icon-star-half-empty:before {
+  content: ""; }
+
+.icon-location-arrow:before {
+  content: ""; }
+
+.icon-crop:before {
+  content: ""; }
+
+.icon-code-fork:before {
+  content: ""; }
+
+.icon-unlink:before {
+  content: ""; }
+
+.icon-question:before {
+  content: ""; }
+
+.icon-info:before {
+  content: ""; }
+
+.icon-exclamation:before {
+  content: ""; }
+
+.icon-superscript:before {
+  content: ""; }
+
+.icon-subscript:before {
+  content: ""; }
+
+.icon-eraser:before {
+  content: ""; }
+
+.icon-puzzle-piece:before {
+  content: ""; }
+
+.icon-microphone:before {
+  content: ""; }
+
+.icon-microphone-off:before {
+  content: ""; }
+
+.icon-shield:before {
+  content: ""; }
+
+.icon-calendar-empty:before {
+  content: ""; }
+
+.icon-fire-extinguisher:before {
+  content: ""; }
+
+.icon-rocket:before {
+  content: ""; }
+
+.icon-maxcdn:before {
+  content: ""; }
+
+.icon-chevron-sign-left:before {
+  content: ""; }
+
+.icon-chevron-sign-right:before {
+  content: ""; }
+
+.icon-chevron-sign-up:before {
+  content: ""; }
+
+.icon-chevron-sign-down:before {
+  content: ""; }
+
+.icon-html5:before {
+  content: ""; }
+
+.icon-css3:before {
+  content: ""; }
+
+.icon-anchor:before {
+  content: ""; }
+
+.icon-unlock-alt:before {
+  content: ""; }
+
+.icon-bullseye:before {
+  content: ""; }
+
+.icon-ellipsis-horizontal:before {
+  content: ""; }
+
+.icon-ellipsis-vertical:before {
+  content: ""; }
+
+.icon-rss-sign:before {
+  content: ""; }
+
+.icon-play-sign:before {
+  content: ""; }
+
+.icon-ticket:before {
+  content: ""; }
+
+.icon-minus-sign-alt:before {
+  content: ""; }
+
+.icon-check-minus:before {
+  content: ""; }
+
+.icon-level-up:before {
+  content: ""; }
+
+.icon-level-down:before {
+  content: ""; }
+
+.icon-check-sign:before {
+  content: ""; }
+
+.icon-edit-sign:before {
+  content: ""; }
+
+.icon-external-link-sign:before {
+  content: ""; }
+
+.icon-share-sign:before {
+  content: ""; }
+
+.icon-compass:before {
+  content: ""; }
+
+.icon-collapse:before {
+  content: ""; }
+
+.icon-collapse-top:before {
+  content: ""; }
+
+.icon-expand:before {
+  content: ""; }
+
+.icon-euro:before,
+.icon-eur:before {
+  content: ""; }
+
+.icon-gbp:before {
+  content: ""; }
+
+.icon-dollar:before,
+.icon-usd:before {
+  content: ""; }
+
+.icon-rupee:before,
+.icon-inr:before {
+  content: ""; }
+
+.icon-yen:before,
+.icon-jpy:before {
+  content: ""; }
+
+.icon-renminbi:before,
+.icon-cny:before {
+  content: ""; }
+
+.icon-won:before,
+.icon-krw:before {
+  content: ""; }
+
+.icon-bitcoin:before,
+.icon-btc:before {
+  content: ""; }
+
+.icon-file:before {
+  content: ""; }
+
+.icon-file-text:before {
+  content: ""; }
+
+.icon-sort-by-alphabet:before {
+  content: ""; }
+
+.icon-sort-by-alphabet-alt:before {
+  content: ""; }
+
+.icon-sort-by-attributes:before {
+  content: ""; }
+
+.icon-sort-by-attributes-alt:before {
+  content: ""; }
+
+.icon-sort-by-order:before {
+  content: ""; }
+
+.icon-sort-by-order-alt:before {
+  content: ""; }
+
+.icon-thumbs-up:before {
+  content: ""; }
+
+.icon-thumbs-down:before {
+  content: ""; }
+
+.icon-youtube-sign:before {
+  content: ""; }
+
+.icon-youtube:before {
+  content: ""; }
+
+.icon-xing:before {
+  content: ""; }
+
+.icon-xing-sign:before {
+  content: ""; }
+
+.icon-youtube-play:before {
+  content: ""; }
+
+.icon-dropbox:before {
+  content: ""; }
+
+.icon-stackexchange:before {
+  content: ""; }
+
+.icon-instagram:before {
+  content: ""; }
+
+.icon-flickr:before {
+  content: ""; }
+
+.icon-adn:before {
+  content: ""; }
+
+.icon-bitbucket:before {
+  content: ""; }
+
+.icon-bitbucket-sign:before {
+  content: ""; }
+
+.icon-tumblr:before {
+  content: ""; }
+
+.icon-tumblr-sign:before {
+  content: ""; }
+
+.icon-long-arrow-down:before {
+  content: ""; }
+
+.icon-long-arrow-up:before {
+  content: ""; }
+
+.icon-long-arrow-left:before {
+  content: ""; }
+
+.icon-long-arrow-right:before {
+  content: ""; }
+
+.icon-apple:before {
+  content: ""; }
+
+.icon-windows:before {
+  content: ""; }
+
+.icon-android:before {
+  content: ""; }
+
+.icon-linux:before {
+  content: ""; }
+
+.icon-dribbble:before {
+  content: ""; }
+
+.icon-skype:before {
+  content: ""; }
+
+.icon-foursquare:before {
+  content: ""; }
+
+.icon-trello:before {
+  content: ""; }
+
+.icon-female:before {
+  content: ""; }
+
+.icon-male:before {
+  content: ""; }
+
+.icon-gittip:before {
+  content: ""; }
+
+.icon-sun:before {
+  content: ""; }
+
+.icon-moon:before {
+  content: ""; }
+
+.icon-archive:before {
+  content: ""; }
+
+.icon-bug:before {
+  content: ""; }
+
+.icon-vk:before {
+  content: ""; }
+
+.icon-weibo:before {
+  content: ""; }
+
+.icon-renren:before {
+  content: ""; }

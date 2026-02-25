@@ -1,0 +1,93 @@
+/* Sliding Subnav Styles */
+.slidenav {
+	margin-top: 10px;
+    position: relative;
+    background-color:#4597E3;
+	float:right;
+	width:393px;
+	height:36px;
+}
+
+.slidenav ul li a {
+    color: #f1f1f1;
+	text-decoration: none;
+	height: 30px;
+}
+
+.slidenav ul li:hover a 
+{
+	background-color: #4597E3;
+	height: 28px;
+}
+
+.slidenav ul
+{
+    list-style: none;
+	padding:0px;
+	margin-top: 10px;
+	margin-bottom: 0px;
+	height: 100%;
+	font-size:13px;
+}
+
+
+.slidenav ul li {
+    list-style: none;
+	padding:0px;
+	margin-top: 0px;
+	height: 25px;
+}
+
+.subnav ul li, .subnav ul, .slidenav-box {
+    height: 2em;
+    line-height: 2.3em;
+    list-style: none;
+}
+
+.slidenav ul a, .subnav ul a {
+    display: block;
+    padding: 0px 10px;
+}
+
+.slidenav ul li, .subnav ul li {
+    float: left;
+}
+
+.slidenav ul li ul {
+    display: none;
+	background: #4597E3;
+    position: absolute;
+	top: 28px;
+    left: 0;
+	height: 33px;
+	font-size:10px;
+	line-height: 31px;
+	padding-top: 0px;
+}
+
+.slidenav ul li:hover ul {
+    display: block;
+}
+
+.subnav ul {
+    display: none;
+	font-size: 13px;
+}
+
+.subnav ul a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.slidenav-box {
+    margin: 5px 0px;
+    border: 1px solid #472841;
+    padding: 0px 20px;
+	background: #c15600;
+}
+
+.inactive-box {
+	visibility: hidden;
+}
+
+/* End Sliding Subnav Styles */

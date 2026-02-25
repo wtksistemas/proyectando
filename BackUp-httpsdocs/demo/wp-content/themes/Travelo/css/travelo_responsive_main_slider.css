@@ -1,0 +1,321 @@
+@media (max-width: 365px) { 
+	.sliders, .slide, .slide img {
+		height:145px;
+	}
+	
+	.slider {
+		min-height:145px;
+		max-height:145px;
+	}
+	
+	.sliderBg {
+		max-height:145px;
+	}
+	
+	.slider > .widgetFilter {
+		top:122px;
+	}
+	
+}
+
+
+@media (min-width: 365px) and (max-width: 400px){ 
+	.sliders, .slide, .slide img {
+		height:153px;
+	}
+	
+	.slider {
+		min-height:153px;
+		max-height:153px;
+	}
+	
+	.sliderBg {
+		max-height:153px;
+	}
+	
+	.slider > .widgetFilter {
+		top:130px;
+	}
+	
+}
+
+@media (min-width: 401px) and (max-width: 450px){
+	.sliders, .slide, .slide img {
+		height:169px;
+	}
+	
+	.slider {
+		min-height:169px;
+		max-height:169px;
+	}
+	
+	.sliderBg {
+		max-height:169px;
+	} 
+	
+	.slider > .widgetFilter {
+		top:150px;
+	}
+	
+}
+
+@media (min-width: 451px) and (max-width: 500px){ 
+	.sliders, .slide, .slide img {
+		height:189px;
+	}
+	
+	.slider {
+		min-height:189px;
+		max-height:189px;
+	}
+	
+	.sliderBg {
+		max-height:189px;
+	}
+	
+	.slider > .widgetFilter {
+		top:170px;
+	}
+}
+
+@media (min-width: 501px) and (max-width: 550px){
+	.sliders, .slide, .slide img {
+		height:209px;
+	}
+	
+	.slider {
+		min-height:209px;
+		max-height:209px;
+	}
+	
+	.sliderBg {
+		max-height:209px;
+	}
+	
+	.slider > .widgetFilter {
+		top:185px;
+	}
+	
+}
+
+@media (min-width: 551px) and (max-width: 600px){
+	.sliders, .slide, .slide img {
+		height:228px;
+	}
+	
+	.slider {
+		min-height:228px;
+		max-height:228px;
+	}
+	
+	.sliderBg {
+		max-height:228px;
+	}
+	
+	.slider > .widgetFilter {
+		top:205px;
+	}
+	
+}
+
+@media (min-width: 601px) and (max-width: 650px){
+	.sliders, .slide, .slide img {
+		height:248px;
+	}
+	
+	.slider {
+		min-height:248px;
+		max-height:248px;
+	}
+	
+	.sliderBg {
+		max-height:248px;
+	}
+	
+	.slider > .widgetFilter {
+		top:225px;
+	}
+	
+}
+
+@media (min-width: 651px) and (max-width: 700px){ 
+	.sliders, .slide, .slide img {
+		height:268px;
+	}
+	
+	.slider {
+		min-height:268px;
+		max-height:268px;
+	}
+	
+	.sliderBg {
+		max-height:268px;
+	}
+	
+	.slider > .widgetFilter {
+		top:245px;
+	}
+	
+}
+
+@media (min-width: 701px) and (max-width: 750px){ 
+	.sliders, .slide, .slide img {
+		height:288px;
+	}
+	
+	.slider {
+		min-height:288px;
+		max-height:288px;
+	}
+	
+	.sliderBg {
+		max-height:288px;
+	}
+	
+	.slider > .widgetFilter {
+		top:265px;
+	}
+	
+}
+
+@media (min-width: 751px) and (max-width: 800px){ 
+	.sliders, .slide, .slide img {
+		height:308px;
+	}
+	
+	.slider {
+		min-height:308px;
+		max-height:308px;
+	}
+	
+	.sliderBg {
+		max-height:308px;
+	}
+	
+	.slider > .widgetFilter {
+		top:285px;
+	}
+}
+
+@media (min-width: 801px) and (max-width: 850px){ 
+	.sliders, .slide, .slide img {
+		height:328px;
+	}
+	
+	.slider {
+		min-height:328px;
+		max-height:328px;
+	}
+	
+	.sliderBg {
+		max-height:328px;
+	}
+	
+	.slider > .widgetFilter {
+		top:305px;
+	}
+}
+
+@media (min-width: 851px) and (max-width: 900px){ 
+	.sliders, .slide, .slide img {
+		height:348px;
+	}
+	
+	.slider {
+		min-height:348px;
+		max-height:348px;
+	}
+	
+	.sliderBg {
+		max-height:348px;
+	}
+	
+	.slider > .widgetFilter {
+		top:325px;
+	}
+}
+@media (min-width: 901px) and (max-width: 950px){ 
+	.sliders, .slide, .slide img {
+		height:368px;
+	}
+	
+	.slider {
+		min-height:368px;
+		max-height:368px;
+	}
+	
+	.sliderBg {
+		max-height:368px;
+	}
+	
+	.slider > .widgetFilter {
+		top:345px;
+	}
+	
+}
+
+@media (min-width: 951px) and (max-width: 1000px){ 
+	.sliders, .slide, .slide img {
+		height:387px;
+	}
+	
+	.slider {
+		min-height:387px;
+		max-height:387px;
+	}
+	
+	.sliderBg {
+		max-height:387px;
+	}
+	
+	.slider > .widgetFilter {
+		top:365px;
+	}
+	
+}
+
+@media (min-width: 1001px) and (max-width: 1024px){ 
+	.sliders, .slide, .slide img {
+		height:401px;
+	}
+	
+	.slider {
+		min-height:401px;
+		max-height:401px;
+	}
+	
+	.sliderBg {
+		max-height:401px;
+	}
+}
+
+
+@media (min-width: 1025px) and (max-width: 1075px){ 
+	.sliders, .slide, .slide img {
+		height:417px;
+	}
+	
+	.slider {
+		min-height:417px;
+		max-height:417px;
+	}
+	
+	.sliderBg {
+		max-height:417px;
+	}
+}
+
+@media (min-width: 1076px) and (max-width: 1125px){ 
+	.sliders, .slide, .slide img {
+		height:437px;
+	}
+	
+	.slider {
+		min-height:437px;
+		max-height:437px;
+	}
+	
+	.sliderBg {
+		max-height:437px;
+	}
+}

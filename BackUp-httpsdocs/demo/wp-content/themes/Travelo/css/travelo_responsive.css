@@ -1,0 +1,1703 @@
+/* ##############  nav for mobile  ############### */
+@media (min-width: 0px) and (max-width: 1024px) {
+	
+	.skinsWrapper, #options, .filterForm , .filterForm2 {
+		display:none;
+	}
+	
+	nav ul li a {
+		padding:11px 8px;
+	}
+	
+	#menuResponsiveBtn {
+		display: block !important;
+		padding: 27px 20px !important;
+		float: right !important;
+		cursor:pointer;
+	}
+	
+	.menuWrapper {
+		display:none;
+		width:250px !important;
+		z-index:9999 !important;
+		position:absolute;
+		top:0;
+		right:-250px;
+		margin:0 !important;
+		text-align:left;
+	}
+	
+	.menuWrapper .menu {
+		width: 100%;
+		margin: 20px 0;
+	}
+	
+	.menuWrapper ul li {
+		float:none !important;
+		border-bottom:1px solid;
+		margin:0;
+		padding:0;
+	}
+	
+	.menuWrapper ul li:first-child {
+		border-top:1px solid;
+	}
+	
+	nav ul ul li a {
+		border-bottom: none;
+	}
+	
+	.menuWrapper .sub-menu li{
+		border-bottom:none !important;
+		border-top:solid 1px !important;
+	}
+	
+	.menuWrapper ul ul {
+		display:block !important;
+		position:static;
+		background:inherit;
+	}
+	
+	nav ul li:hover {
+		background: inherit;
+	}
+	
+	nav ul ul li a {
+		border-bottom: none;
+	}
+	
+	nav ul ul li {
+		font-size: inherit;
+		padding:0 10px;
+	}
+	
+	.menuWrapper > nav > div > ul {
+		float:none;
+		
+	}
+	
+	.menuWrapper .menu {
+		padding:0;
+	}
+	
+	.tags form #s {
+		max-width:135px;
+	}
+	
+	
+	/* D E M O */
+	
+	.Responsive {
+		display:block !important;
+		position:static !important;
+		width: 100% !important;
+		padding:0 !important;
+	}
+	
+	.Responsive  > div {
+		width:35px !important;
+		height:35px !important;
+		display:inline-block !important;
+	}
+	
+	.Responsive  > div > div {
+		width: 25px !important;
+		height: 25px !important;
+		margin: 5px auto !important;
+		border-radius: 7px !important;
+	}
+	
+	.menuWrapper .sub-menu li a:before {
+		content: "\2192";
+		margin-right:10px;
+	}
+	
+	.menuWrapper .sub-menu li ul li a:before {
+		content: "\2192";
+		margin-right:10px;
+		margin-left:20px;
+	}
+	
+	.menuWrapper .sub-menu li ul li ul li a:before {
+		content: "\2192";
+		margin-right:10px;
+		margin-left:40px;
+	}
+	
+	
+	
+	/* D E M O */
+	.resultWrapper {
+	width:100%;
+	}
+	
+
+}
+/* ##############  nav for mobile  ############### */
+
+
+
+
+
+/* ##############  mobile portrait  ############### */
+@media (max-width: 365px) { 
+	
+	body, .headerBg, .header, .contentPagesTravels, .filter2, .sliders, .slide, 
+	.slide img, .slide-content, .latestPost, .filterForm + .widgetFilter, .footerBg .footer, .footer2, 
+	.sliderBg img , .contentAndCommentsHolder, .aboutUsContent, .contentDefault, .citySlider, .leftCity .property, 
+	.aboutUsWrapper, .aboutUsHeader, .contactContent, .blankHeader, .contentCity, .writeReview, .bookingDetails, 
+	.leftCity, .tabHolder, .reviews, .reviewsBody, .tabs, .ad-gallery, .ad-image, .ad-image img, .bookingContent, 
+	.bookingDetails, .stepsBody, .singlepostContent, .singleCommentHeader, .singleCommentBody, .Tags {
+		width:100% !important;
+	}
+	
+	.leftCity {
+		float:none;
+	}
+	
+	img {
+		max-width:100%;
+	}
+	
+	.mainContent {
+		width:100%;
+	}
+	
+	.half, .third, .quarter, .sixth {
+		width:100%;
+		margin:0;
+	}
+	
+	.contentDefault {
+		margin:10px 0 !important;
+	}
+	
+	.bWrapp, .content {
+		width:300px;
+		margin: 20px auto !important;
+	}
+	
+	.content {
+		float:none;
+	}
+	
+	.mainText p, .price {
+		display:none;
+	}
+	
+	body {
+		overflow-x:hidden !important;
+	}
+	
+	.logo img {
+		max-width:100px !important;
+		margin-top:5px;
+	}
+	
+	.sliders, .slide, .slide img {
+		height:150px;
+	}
+	
+	.slider {
+		min-height:150px;
+		max-height:150px;
+	}
+	
+	.sliderBg {
+		max-height:150px;
+	}
+	
+	.mainText {
+		max-width: 200px;
+		padding: 1px 10px;
+		margin: 20px;
+		display:inline-block;
+	}
+	
+	.mainText h2, .titleText h2{
+		font-size: 24px;
+		line-height: 26px;
+	}
+	
+	.titleText h2{
+		margin-top: 9px;
+		margin-bottom: 10px;
+	}
+	
+	.titleText {
+		margin: -130px 0 0;
+		max-width: 190px;
+		padding: 0 10px;
+	}
+		
+	.latestPost {
+		height: 70px;
+		margin: 220px auto 0 auto;
+	}
+	
+	.widgetFilter {
+		display: block !important;
+	}
+	
+	.widgetFilter > .widgetFilterWrap {
+		padding:20px;
+	}
+	
+	.slider > .widgetFilter > .widgetFilterWrap {
+		
+	}
+	
+	.slider > .widgetFilter {
+		display: block;
+		position:absolute;
+		top:130px;
+	}
+	
+	.widgetFilter li {
+		list-style:none !important;
+	}
+	
+	.footerBg .footer {
+		height: auto;
+		margin: 0px auto;
+	}
+	
+	.footerBg .footer .footerBucketContent {
+		display:block;
+		float:none;
+		width:90%;
+		margin:20px auto;
+	}
+	
+	.footer2 {
+		margin: 0;
+	}
+	
+	.copyRight1 {
+		margin: -15px 20px;
+	}
+	
+	.copyRight2 {
+		margin: 0 20px 40px 20px;
+		float:none;
+	}
+	
+	.filter {
+		margin: 5px 0;
+	}
+	
+	.latestPost img, .latestOffers img{
+		margin: 10px -12px 0 -14px;
+	}
+	.latestOffers p {
+		white-space:nowrap
+	}
+	
+	.latestPost h5, .latestOffers h5 {
+		width: 56px;
+		margin-top: 5px;
+	}
+	
+	.sliderBg img {
+		height: 150px;
+	}
+	
+	.slide-content > a {
+		margin-top: -124px;
+		margin-left: 20px;
+		padding: 5px 10px;
+	}
+	
+	.bucketEx, .bucketBlog  {
+		display:block;
+	}
+	
+	.bucketBlog, .bucketEx  {
+		margin: 20px 0;
+	}
+	
+	.filter2 {
+		height:auto;
+		margin: 50px auto 0;
+	}
+	
+	.filter2 form {
+		float:none;
+	}
+	
+	.filter2 form a {
+		border: none;
+		padding: 10px;
+		margin: 0;
+		line-height: 43px;
+	}
+	
+	.filter2 h5 {
+		margin:0;
+		margin-top: -30px;
+		position:absolute;
+	}
+	
+	.contentPages{
+		clear:both;
+		float:left !important;
+		width:100% !important;
+		display:block !important;
+		margin: 0 !important;
+		padding: 0 !important;
+	}
+	
+	.pageNrBtn {
+		width:auto;
+	}
+	
+	.left {
+		float: none;
+		clear: both;
+		display: block;
+		overflow: hidden;
+		margin: 20px auto;
+	}
+	
+	.aboutUsBWrapper, .aboutUsSWrapper   {
+		margin:10px 0;
+	}
+	
+	.msnrParagraph, .msnrStaff   {
+		width:300px !important;
+		margin:20px auto !important;
+		border:solid 1 px red !important;
+	}
+	
+	.sbOptions {
+		width:100%;
+	}
+	
+	.mapView #googleMap {
+		width:250px !important;
+		height:400px !important;
+	}
+	
+	.mapView{
+		width:250px !important;
+		margin: 10px auto;		
+	}
+	
+	.contactForm {
+		width: 80%;
+		float: none;
+		margin:20px auto;
+		padding: 10px 20px 20px;
+		height:810px;
+	}
+	
+	textarea.contactText {
+		min-width: 93%;
+		max-width: 93%;
+	}
+	
+	.reviewInput, .contactInputFields {
+		width:100%;
+	}
+	
+	.reviewInput:last-child, .reviewInput:nth-child(6) {
+		width:70px !important;
+	}
+	
+	.firstContactinfo, .secondContactinfo {
+		float:none;
+		margin:10px auto;
+	}
+	
+	.contactInfo {
+		width:100%;
+		margin-top:20px;
+	}
+	
+	.ad-gallery .ad-image-wrapper {
+		height: 174px;
+	}
+	
+	.leftCity .citySlider {
+		height: 279px;
+	}
+	
+	.ad-gallery .ad-thumbs li {
+		padding-right: 5px;
+	}
+	
+	.ad-gallery .ad-nav .ad-thumbs {
+		width:97%;
+	}
+	
+	.ad-gallery .ad-forward {
+		right: -11px;
+	}
+	
+	.ad-gallery .ad-back {
+		left: -6px;
+	}
+	
+	.rightCity {
+		float: none;
+		margin:20px auto;
+		min-height: 0px;
+		padding-bottom: 20px;
+	}
+	
+	.property > div {
+		margin: 0 16px;
+	}
+	
+	.tabsHeader .tab {
+		padding: 0 7px;
+	}
+	
+	.writeComment {
+		min-width:260px;
+		max-width:260px;
+	}
+	
+	#commentform > .reviewInput:nth-child(4) {
+		position:relative;
+	}
+	
+	#commentform > .reviewInput:nth-child(4) .stars{
+		position:absolute;
+		top:55px;
+		left:0;
+	}
+	
+	.tabsWrapper {
+		width:98%;
+	}
+	
+	.reviewsBody table {
+		margin:0;
+	}
+	
+	.reviewText, .reviewText h5, .reviewText span {
+		display:block;
+		margin:0;
+	}
+	
+	.ad-gallery .ad-image-wrapper .ad-image {
+		left:0 !important;
+	}
+	
+	.bookingDetails > img {
+		float:none;
+		width:100%;
+		height:auto;
+	}
+
+	.selectForm {
+		height: 136px;
+	}
+	
+	.bookingContent form h4 {
+		float: none;
+		margin: 10px 0px;
+	}
+	
+	.selectTour {
+		width: 268px;
+		float: none;
+		display: block;
+		margin: 0 auto;
+	}
+
+	.selectTour div {
+		width:200px;
+	}
+	
+	.info {
+		width:92%;
+		height:150px;
+	}
+
+	.elements {
+		width: 91%;
+		margin-top: 20px;
+		height:auto;
+	}
+	
+	.elements > div {
+		width: 100px;
+		margin:0;
+	}
+	
+	.elements > div:first-child {
+		float: left;
+	}
+	
+	.elements > div:nth-child(2){
+		float: right;
+	}
+	
+	.stepsBody {
+		padding-left: 0px;
+	}
+	
+	.bookInputFields, .bookInputFieldsTwo {
+		width: 97%;
+	}
+	
+	.bookInputFieldsThree {
+		width:90%;
+	}
+	
+	.ui-spinner {
+		width:100% !important;
+	}
+	
+	.ui-widget-content {
+		width:auto;
+	}
+	
+	.stepsBody textarea {
+		max-width:93%;
+		min-width:93%;
+	}
+	
+	.stepsBody > div {
+		display: block;
+		margin: 0px;
+		padding: 10px;
+	}
+	
+	.termsAndConditions {
+		width:80%;
+	}
+	
+	.replyComment {
+		float:none;
+		margin:10px 0;
+		width:27px;
+		display:block;
+	}
+	
+	.writeCommentSingle {
+		min-width:91%;
+		max-width:91%;
+	}
+	
+	.stepsHeader {
+		width:87.5%;
+	}
+	
+	.box_skitter {
+		width:230px !important;
+		height:150px !important;
+		float:none !important;
+	}
+
+	.box_skitter img {
+		width:230px !important;
+		height:150px !important;
+	}
+	
+	.bucketWrapper {
+		width:320px !important;
+		padding:0;
+	}
+	
+	.bucketWrapper .pg_paging .pg_next {
+		margin: -125px 0 0 269px !important;
+		background:url(../images/nextR.png) no-repeat;
+		width:40px;
+		height:40px;
+	}
+	
+	.bucketWrapper .pg_paging .pg_previous {
+		margin: -125px 11px !important;
+		background:url(../images/prevR.png) no-repeat;
+		width:40px;
+		height:40px;
+	}
+	
+	.bucketWrapper .pg_paging .pg_previous a, .bucketWrapper .pg_paging .pg_next a{
+		width:100%;
+		height:100%;
+	}
+	
+}
+/* ##############  END mobile portrait  ############### */
+
+
+
+
+
+
+
+/* ##############  mobile landscape  ############### */
+@media (min-width: 366px) and (max-width: 645px){ 
+		body, .headerBg, .header, .contentPagesTravels, .filter2, .sliders, .slide, 
+	.slide img, .slide-content, .latestPost, .filterForm + .widgetFilter, .footerBg .footer, .footer2, 
+	.sliderBg img , .contentAndCommentsHolder, .aboutUsContent, .contentDefault, .citySlider, .leftCity .property, 
+	.aboutUsWrapper, .aboutUsHeader, .contactContent, .blankHeader, .contentCity, .writeReview, .bookingDetails, 
+	.leftCity, .tabHolder, .reviews, .reviewsBody, .tabs, .ad-gallery, .ad-image, .ad-image img, .bookingContent, 
+	.bookingDetails, .stepsBody, .singlepostContent, .singleCommentHeader, .singleCommentBody, .Tags {
+		width:100% !important;
+	}
+	
+	.leftCity {
+		float:none;
+	}
+	
+	img {
+		max-width:100%;
+	}
+	
+	.mainContent {
+		width:100%;
+	}
+	
+	.half, .third, .quarter, .sixth {
+		width:100%;
+		margin:0;
+	}
+	
+	.contentDefault {
+		margin:10px 0 !important;
+	}
+	
+	.bWrapp, .content {
+		width:300px;
+		margin: 20px auto !important;
+	}
+	
+	.content {
+		float:none;
+	}
+	
+	.mainText p, .price {
+		display:none;
+	}
+	
+	body {
+		overflow-x:hidden !important;
+	}
+	
+	.logo img {
+		max-width:100px !important;
+		margin-top:5px;
+	}
+	
+	.sliders, .slide, .slide img {
+		height:200px;
+	}
+	
+	.slider {
+		min-height:200px;
+		max-height:200px;
+	}
+	
+	.sliderBg {
+		max-height:200px;
+	}
+	
+	.mainText {
+		max-width: 200px;
+		padding: 1px 10px;
+		margin: 20px;
+		display:inline-block;
+	}
+	
+	.mainText h2, .titleText h2{
+		font-size: 24px;
+		line-height: 26px;
+	}
+	
+	.titleText h2{
+		margin-top: 9px;
+		margin-bottom: 10px;
+	}
+	
+	.titleText {
+		margin: -130px 0 0;
+		max-width: 190px;
+		padding: 0 10px;
+	}
+		
+	.latestPost {
+		height: 70px;
+		margin: 220px auto 0 auto;
+	}
+	
+	.widgetFilter {
+		display: block !important;
+	}
+	
+	.widgetFilter > .widgetFilterWrap {
+		padding:20px;
+	}
+	
+	.slider > .widgetFilter > .widgetFilterWrap {
+		
+	}
+	
+	.slider > .widgetFilter {
+		display: block;
+		position:absolute;
+		top:178px;
+	}
+	
+	.widgetFilter li {
+		list-style:none !important;
+	}
+	
+	.footerBg .footer {
+		height: auto;
+		margin: 0px auto;
+	}
+	
+	.footerBg .footer .footerBucketContent {
+		display:block;
+		float:none;
+		width:90%;
+		margin:20px auto;
+	}
+	
+	.footer2 {
+		margin: 0;
+	}
+	
+	.copyRight1 {
+		margin: 10px;
+		max-width: 45%;
+	}
+	
+	.copyRight2 {
+		margin: 10px;
+		max-width: 45%;
+		float:right;
+	}
+	
+	.filter {
+		margin: 5px 0;
+	}
+	
+	.latestPost img, .latestOffers img{
+		margin: 10px -12px 0 -14px;
+	}
+	.latestOffers p {
+		white-space:nowrap
+	}
+	
+	.latestPost h5, .latestOffers h5 {
+		width: 56px;
+		margin-top: 5px;
+	}
+	
+	.sliderBg img {
+		height: 200px;
+	}
+	
+	.slide-content > a {
+		margin-top: -124px;
+		margin-left: 20px;
+		padding: 5px 10px;
+	}
+	
+	.bucketEx, .bucketBlog  {
+		display:block;
+	}
+	
+	.bucketBlog, .bucketEx  {
+		margin: 20px 0;
+	}
+	
+	.filter2 {
+		height:auto;
+		margin: 50px auto 0;
+	}
+	
+	.filter2 form {
+		float:none;
+	}
+	
+	.filter2 form a {
+		border: none;
+		padding: 10px;
+		margin: 0;
+		line-height: 43px;
+	}
+	
+	.filter2 h5 {
+		margin:0;
+		margin-top: -30px;
+		position:absolute;
+	}
+	
+	.contentPages{
+		clear:both;
+		float:left !important;
+		width:100% !important;
+		display:block !important;
+		margin: 0 !important;
+		padding: 0 !important;
+	}
+	
+	.pageNrBtn {
+		width:auto;
+	}
+	
+	.left {
+		float: none;
+		clear: both;
+		display: block;
+		overflow: hidden;
+		margin: 20px auto;
+	}
+	
+	.aboutUsBWrapper, .aboutUsSWrapper   {
+		margin:10px 0;
+	}
+	
+	.msnrParagraph, .msnrStaff   {
+		width:300px !important;
+		margin:20px auto !important;
+		border:solid 1 px red !important;
+	}
+	
+	.sbOptions {
+		width:100%;
+	}
+	
+	.mapView #googleMap {
+		width:100% !important;
+		height:400px !important;
+	}
+	
+	.mapView{
+		width:84% !important;
+		margin: 10px auto;		
+	}
+	
+	.contactForm {
+		width: 80%;
+		float: none;
+		margin:20px auto;
+		padding: 10px 20px 20px;
+		height:810px;
+	}
+	
+	textarea.contactText {
+		min-width: 93%;
+		max-width: 93%;
+	}
+	
+	.reviewInput, .contactInputFields {
+		width:100%;
+	}
+	
+	.reviewInput:last-child, .reviewInput:nth-child(6) {
+		width:70px !important;
+	}
+	
+	.firstContactinfo, .secondContactinfo {
+		float:none;
+		margin:10px auto;
+	}
+	
+	.contactInfo {
+		width:100%;
+		margin-top:20px;
+	}
+	
+	.ad-gallery .ad-image-wrapper {
+		height: 280px;
+	}
+	
+	.leftCity .citySlider {
+		height: 385px;
+	}
+	
+	.ad-gallery .ad-thumbs li {
+		padding-right: 5px;
+	}
+	
+	.ad-gallery .ad-nav .ad-thumbs {
+		width:97%;
+	}
+	
+	.ad-gallery .ad-forward {
+		right: -11px;
+	}
+	
+	.ad-gallery .ad-back {
+		left: -6px;
+	}
+	
+	.rightCity {
+		float: none;
+		margin:20px auto;
+		min-height: 0px;
+		padding-bottom: 20px;
+	}
+	
+	.property > div {
+		margin: 0 16px;
+	}
+	
+	.tabsHeader .tab {
+		padding: 0 7px;
+	}
+	
+	.writeComment {
+		min-width:260px;
+		max-width:260px;
+	}
+	
+	#commentform > .reviewInput:nth-child(4) {
+		position:relative;
+	}
+	
+	#commentform > .reviewInput:nth-child(4) .stars{
+		position:absolute;
+		top:55px;
+		left:0;
+	}
+	
+	.tabsWrapper {
+		width:98%;
+	}
+	
+	.reviewsBody table {
+		margin:0;
+	}
+	
+	.reviewText, .reviewText h5, .reviewText span {
+		display:block;
+		margin:0;
+	}
+	
+	.ad-gallery .ad-image-wrapper .ad-image {
+		left:0 !important;
+	}
+	
+	.bookingDetails > img {
+		float:none;
+		width:100%;
+		height:auto;
+		width: 300px;
+		margin: 0px auto 20px;
+		display: block;
+	}
+
+	.selectForm {
+		height: 136px;
+	}
+	
+	.bookingContent form h4 {
+		float: none;
+		margin: 10px 0px;
+	}
+	
+	.selectTour {
+		width: 268px;
+		float: none;
+		display: block;
+		margin: 0 auto;
+	}
+
+	.selectTour div {
+		width:200px;
+	}
+	
+	.info {
+		width:92%;
+		height:150px;
+	}
+
+	.elements {
+		width: 91%;
+		margin-top: 20px;
+		height:auto;
+	}
+	
+	.elements > div {
+		width: 100px;
+		margin:0;
+	}
+	
+	.elements > div:first-child {
+		float: left;
+	}
+	
+	.elements > div:nth-child(2){
+		float: right;
+	}
+	
+	.stepsBody {
+		padding-left: 0px;
+	}
+	
+	.bookInputFields, .bookInputFieldsTwo {
+		width: 97%;
+	}
+	
+	.bookInputFieldsThree {
+		width:90%;
+	}
+	
+	.ui-spinner {
+		width:100% !important;
+	}
+	
+	.ui-widget-content {
+		width:auto;
+	}
+	
+	.stepsBody textarea {
+		max-width:93%;
+		min-width:93%;
+	}
+	
+	.stepsBody > div {
+		display: inline-block;
+		margin: 0px;
+		padding: 10px;
+		width:45%;
+	}
+	
+	.termsAndConditions {
+		width:80%;
+	}
+	
+	.replyComment {
+		float:none;
+		margin:10px 0;
+		width:27px;
+		display:block;
+	}
+	
+	.writeCommentSingle {
+		min-width:91%;
+		max-width:91%;
+	}
+	
+	.stepsHeader {
+		width:92.5%;
+	}
+	
+	.last > div {
+		width: 97%;
+	}
+	
+	.box_skitter {
+		width:400px !important;
+		height:230px !important;
+		float:none !important;
+	}
+
+	.box_skitter img {
+		width:400px !important;
+		height:230px !important;
+	}
+	
+	.bucketWrapper {
+		width:320px !important;
+		padding:0;
+	}
+	
+	.bucketWrapper .pg_paging .pg_next {
+		margin: -125px 0 0 320px !important;
+		background:url(../images/nextR.png) no-repeat;
+		width:40px;
+		height:40px;
+	}
+	
+	.bucketWrapper .pg_paging .pg_previous {
+		margin: -125px -40px !important;
+		background:url(../images/prevR.png) no-repeat;
+		width:40px;
+		height:40px;
+	}
+	
+	.bucketWrapper .pg_paging .pg_previous a, .bucketWrapper .pg_paging .pg_next a{
+		width:100%;
+		height:100%;
+	}
+	
+}
+/* ##############  END mobile landscape  ############### */
+
+
+
+
+
+
+
+/* ##############  apple iPad portrait  ############### */
+@media (min-width: 646px) and (max-width: 979px) { /* 768 x 979 */
+			body, .headerBg, .header, .contentPagesTravels, .filter2, .sliders, .slide, 
+	.slide img, .slide-content, .footerBg .footer, .footer2, .aboutUsContent, 
+	.sliderBg img , .contentAndCommentsHolder, .contentDefault, .citySlider,  
+	.aboutUsWrapper, .aboutUsHeader, .contactContent, .blankHeader, .writeReview, .bookingDetails, 
+	.tabHolder, .reviews, .reviewsBody, .tabs, .ad-gallery, .ad-image, .ad-image img, .bookingContent, 
+	.bookingDetails, .stepsBody, .singlepostContent, .singleCommentHeader, .singleCommentBody, .Tags {
+		width:100% !important;
+	}
+	
+	.widgetFilter {
+		display: block !important;
+	}
+	
+	img {
+		max-width:100%;
+	}
+	
+	.mainContent {
+		width:100%;
+	}
+	
+	.half, .third, .quarter, .sixth {
+		margin:15px;
+	}
+	
+	.contentDefault {
+		margin:10px 0 !important;
+	}
+	
+	.bWrapp, .content {
+		width:auto;
+		margin: 20px 30px !important;
+	}
+	
+	.left + .content {
+		margin: 0 0 15px 20px !important;
+		float:left;
+	}
+	
+	.left > .tags {
+		margin: 20px !important;
+	}
+	
+	
+	.content {
+		float:none;
+	}
+	
+	.mainText p, .price {
+		display:none;
+	}
+	
+	body {
+		overflow-x:hidden !important;
+	}
+	
+	.logo img {
+		max-width:135px !important;
+		margin-top:0px;
+	}
+	
+	.sliders, .slide, .slide img {
+		height:250px;
+	}
+	
+	.slider {
+		min-height:250px;
+		max-height:250px;
+	}
+	
+	.sliderBg {
+		max-height:250px;
+	}
+	
+	.mainText {
+		max-width: 200px;
+		padding: 1px 10px;
+		margin: 20px;
+		display:inline-block;
+	}
+	
+	.mainText h2, .titleText h2{
+		font-size: 24px;
+		line-height: 26px;
+	}
+	
+	.titleText h2{
+		margin-top: 9px;
+		margin-bottom: 10px;
+	}
+	
+	.titleText {
+		margin: -130px 0 0;
+		max-width: 190px;
+		padding: 0 10px;
+	}
+		
+	.latestPost {
+		height: 182px;
+		margin: 20px auto 0 auto;
+		margin-left: 45% !important;
+		width: 53% !important;
+	}
+	
+	.widgetFilter > .widgetFilterWrap {
+		padding:20px;
+	}
+	
+	.slider > .widgetFilter > .widgetFilterWrap {
+		
+	}
+	
+	.slider > .widgetFilter {
+		display: block;
+		position:absolute;
+		top:228px;
+		width:45%;
+	}
+	
+	.widgetFilter li {
+		list-style:none !important;
+	}
+	
+	.footerBg .footer {
+		height: auto;
+		margin: 0px auto;
+	}
+	
+	.footerBg .footer .footerBucketContent {
+		display:block;
+		float:none;
+		width:90%;
+		margin:20px auto;
+	}
+	
+	.footer2 {
+		margin: 0;
+	}
+	
+	.copyRight1 {
+		margin: 10px;
+		max-width: 45%;
+	}
+	
+	.copyRight2 {
+		margin: 10px;
+		max-width: 45%;
+		float:right;
+	}
+	
+	.filter {
+		margin: 5px 0;
+	}
+	
+	.latestOffers p {
+		white-space:nowrap
+	}
+	
+	.latestPost p {
+		margin-top:71px;
+		margin-left:-72px;
+	}
+	
+	
+	.latestPost h5, .latestOffers h5 {
+		width:auto;
+	}
+	
+	.sliderBg img {
+		height: 250px;
+	}
+	
+	.slide-content > a {
+		margin-top: -124px;
+		margin-left: 20px;
+		padding: 5px 10px;
+	}
+	
+	.bucketEx, .bucketBlog  {
+		display:block;
+	}
+	
+	.bucketBlog, .bucketEx  {
+		margin: 20px;
+	}
+	
+	.filter2 {
+		height:auto;
+		margin: 50px auto 0;
+	}
+	
+	.filter2 form {
+		float:none;
+	}
+	
+	.filter2 form a {
+		border: none;
+		padding: 10px;
+		margin: 0;
+		line-height: 43px;
+	}
+	
+	.filter2 h5 {
+		margin:0;
+		margin-top: -30px;
+		position:absolute;
+	}
+	
+	.contentPages{
+		clear:both;
+		float:left !important;
+		width:100% !important;
+		display:block !important;
+		margin: 0 !important;
+		padding: 0 !important;
+	}
+	
+	.pageNrBtn {
+		width:auto;
+	}
+	
+	.left {
+		display: block;
+		overflow: hidden;
+		margin: 20px !important;
+		width:95%;
+	}
+	
+	.aboutUsBWrapper, .aboutUsSWrapper   {
+		margin:10px;
+		float:none;
+	}
+	
+	.msnrParagraph, .msnrStaff   {
+		margin:20px auto !important;
+	}
+	
+	.sbOptions {
+		width:100%;
+	}
+	
+	.mapView #googleMap {
+		width:100% !important;
+		height:400px !important;
+	}
+	
+	.mapView{
+		width:84% !important;
+		margin: 10px auto;		
+	}
+	
+	.contactForm {
+		width: 80%;
+		float: none;
+		margin:20px auto;
+		padding: 10px 20px 20px;
+		height:auto;
+	}
+	
+	textarea.contactText {
+		min-width: 93%;
+		max-width: 93%;
+	}
+	
+	.reviewInput, .contactInputFields {
+		width:45%;
+		display:inline-block;
+	}
+	
+	.contactForm .contact .reviewInput {
+		margin:10px;
+	}
+	
+	.reviewInput:last-child, .reviewInput:nth-child(6) {
+		width:70px !important;
+	}
+	
+	.reviewInput:nth-child(5) {
+		width:99%;
+	}
+	
+	.firstContactinfo, .secondContactinfo {
+		margin:10px auto;
+		width: 43% !important;
+	}
+	
+	.contactInfo {
+		width:100%;
+		margin-top:20px;
+	}
+	
+	.ad-gallery .ad-image-wrapper {
+		height: 280px;
+	}
+	
+	.leftCity .citySlider {
+		height: 385px;
+	}
+	
+	.ad-gallery .ad-thumbs li {
+		padding-right: 5px;
+	}
+	
+	.ad-gallery .ad-nav .ad-thumbs {
+		width:97%;
+	}
+	
+	.ad-gallery .ad-forward {
+		right: -11px;
+	}
+	
+	.ad-gallery .ad-back {
+		left: -6px;
+	}
+	
+	.rightCity {
+		float: none;
+		margin:20px auto;
+		min-height: 0px;
+		padding-bottom: 20px;
+	}
+	
+	.property > div {
+		margin: 11px 16px;
+	}
+	
+	.tabsHeader .tab {
+		padding: 0 7px;
+	}
+	
+	.writeComment {
+		min-width:96%;
+		max-width:96%;
+	}
+	
+	#commentform > .reviewInput:nth-child(4) {
+		position:relative;
+	}
+	
+	#commentform > .reviewInput:nth-child(4) .stars{
+		position:absolute;
+		top:55px;
+		left:0;
+	}
+	
+	.tabsWrapper {
+		width:98%;
+	}
+	
+	.reviewsBody table {
+		margin:0;
+	}
+	
+	.reviewText, .reviewText h5, .reviewText span {
+		display:block;
+		margin:0;
+	}
+	
+	.ad-gallery .ad-image-wrapper .ad-image {
+		left:0 !important;
+	}
+	
+	.bookingDetails > img {
+		float:left;
+		width:36%;
+		height:180px;
+		margin: 0px;
+		display: block;
+	}
+
+	.selectForm {
+		height: 91px;
+	}
+	
+
+	
+	.selectTour {
+		width: 268px;
+		display: block;
+		margin: 0 auto;
+	}
+
+	.selectTour div {
+		width:200px;
+	}
+	
+	.info {
+		width:60%;
+		height:150px;
+	}
+
+	.elements {
+		width: 97%;
+		margin-top: 0px;
+		height:auto;
+	}
+	
+	.elements > div {
+		width: 100px;
+		margin:0;
+	}
+	
+	.elements > div:first-child {
+		float: left;
+	}
+	
+	.elements > div:nth-child(2){
+		float: right;
+	}
+	
+	.stepsBody {
+		padding-left: 0px;
+	}
+	
+	.bookInputFields, .bookInputFieldsTwo {
+		width: 97%;
+	}
+	
+	.bookInputFieldsThree {
+		width:90%;
+	}
+	
+	.ui-spinner {
+		width:100% !important;
+	}
+	
+	.ui-widget-content {
+		width:auto;
+	}
+	
+	.stepsBody textarea {
+		max-width:93%;
+		min-width:93%;
+	}
+	
+	.stepsBody > div {
+		display: inline-block;
+		margin: 0px;
+		padding: 10px;
+		width:45%;
+	}
+	
+	.termsAndConditions {
+		width:80%;
+	}
+	
+	.replyComment {
+		float:none;
+		margin:10px 0;
+		width:27px;
+		display:block;
+	}
+	
+	.writeCommentSingle {
+		min-width:680px;
+		max-width:680px;
+	}
+	
+	.stepsHeader {
+		width:94.5%;
+	}
+	
+	.last > div {
+		width: 97%;
+	}
+	
+	.msnrParagraph, .msnrStaff  {
+		width:87% !important;
+		margin:20 auto !important;
+	}
+	
+	.leftCity {
+		float: left;
+		width: 59%;
+		height: auto;
+	}
+
+	.leftCity .property {
+		width: auto;
+		height: auto;
+	}
+	
+	.rightCity {
+		float:left;
+		margin:0;
+	}
+	
+	.contentCity {
+		width:100%;
+	}
+	
+	
+	.box_skitter {
+		width:600px !important;
+		height:300px !important;
+		float:none !important;
+	}
+
+	.box_skitter img {
+		width:600px !important;
+		height:300px !important;
+	}
+
+		.bucketWrapper {
+		width:640px !important;
+		padding:0;
+	}
+	
+	.bucketWrapper .pg_paging .pg_next {
+		margin: -125px 0 0 640px !important;
+		background:url(../images/nextR.png) no-repeat;
+		width:40px;
+		height:40px;
+	}
+	
+	.bucketWrapper .pg_paging .pg_previous {
+		margin: -125px -40px !important;
+		background:url(../images/prevR.png) no-repeat;
+		width:40px;
+		height:40px;
+	}
+	
+	.bucketWrapper .pg_paging .pg_previous a, .bucketWrapper .pg_paging .pg_next a{
+		width:100%;
+		height:100%;
+	}
+	
+}
+/* ##############  END apple iPad portrait  ############### */
+
+
+
+
+
+
+
+
+/* ##############  apple iPad landscape  ############### */
+@media (min-width: 980px) and (max-width: 1024px) { /* 768 x 979 */
+	.filterForm, .filterForm2 {
+		display:block !important;
+	}
+	
+	.bucketWrapper {
+		padding:0;
+	}
+	
+	.bucketWrapper .pg_paging .pg_next {
+		margin: -125px 0 0 910px !important;
+		background:url(../images/nextR.png) no-repeat;
+		width:40px;
+		height:40px;
+	}
+	
+	.bucketWrapper .pg_paging .pg_previous {
+		margin: -125px 11px !important;
+		background:url(../images/prevR.png) no-repeat;
+		width:40px;
+		height:40px;
+	}
+	
+	.bucketWrapper .pg_paging .pg_previous a, .bucketWrapper .pg_paging .pg_next a{
+		width:100%;
+		height:100%;
+	}
+	
+}
+/* ##############  END apple iPad landscape  ############### */
+

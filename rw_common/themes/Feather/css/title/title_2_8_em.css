@@ -1,0 +1,11 @@
+@media only screen {
+	h1#site_title {
+	  font-size: 2.8em;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	h1#site_title {
+	  font-size: 2.6em;
+	}
+}
